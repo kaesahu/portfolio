@@ -168,2757 +168,1413 @@
   const vocabulary = [
     // Sample entries from your uploaded list:
     {
-        word: "à",
-        pronunciation: "आ",
-        meaning: "to, at, in",
-        usage: "Je vais à Paris (I'm going to Paris)",
-        forms: "Preposition indicating direction, location, time",
-        etymology: "Latin ad"
-      },
-      {
-        word: "ah",
-        pronunciation: "आह",
-        meaning: "ah, oh",
-        usage: "Ah, je comprends! (Ah, I understand!)",
-        forms: "Interjection expressing realization",
-        etymology: "Natural exclamation"
-      },
-      {
-        word: "ai",
-        pronunciation: "ऐ",
-        meaning: "have (1st person sing.)",
-        usage: "J'ai un chat (I have a cat)",
-        forms: "Auxiliary verb avoir: ai, as, a, avons, avez, ont",
-        etymology: "Latin habere"
-      },
-      {
-        word: "aïe",
-        pronunciation: "आई",
-        meaning: "ouch, ow",
-        usage: "Aïe! Ça fait mal! (Ouch! That hurts!)",
-        forms: "Interjection of pain",
-        etymology: "Onomatopoeia"
-      },
-      {
-        word: "allons",
-        pronunciation: "आलों",
-        meaning: "let's go",
-        usage: "Allons-y! (Let's go!)",
-        forms: "1st person plural imperative of aller",
-        etymology: "Latin ambulare"
-      },
-      {
-        word: "allez",
-        pronunciation: "आले",
-        meaning: "go (imperative)",
-        usage: "Allez voir! (Go see!)",
-        forms: "2nd person plural imperative of aller",
-        etymology: "Latin ambulare"
-      },
-      {
-        word: "allo",
-        pronunciation: "आलो",
-        meaning: "hello (phone)",
-        usage: "Allô? Qui est-ce? (Hello? Who is it?)",
-        forms: "Telephone greeting only",
-        etymology: "From English 'hello'"
-      },
-      {
-        word: "alors",
-        pronunciation: "आलोर",
-        meaning: "so, then",
-        usage: "Alors, tu viens? (So, are you coming?)",
-        forms: "Adverb of time/consequence",
-        etymology: "Latin ad illam horam"
-      },
-      {
-        word: "appareil",
-        pronunciation: "आपारेय",
-        meaning: "device, apparatus",
-        usage: "L'appareil photo (The camera)",
-        forms: "Masculine noun",
-        etymology: "Latin apparatus"
-      },
-      {
-        word: "assez",
-        pronunciation: "आसे",
-        meaning: "enough",
-        usage: "C'est assez! (That's enough!)",
-        forms: "Adverb of quantity",
-        etymology: "Latin ad satis"
-      },
-      {
-        word: "attends",
-        pronunciation: "आतां",
-        meaning: "wait",
-        usage: "Attends-moi! (Wait for me!)",
-        forms: "2nd person singular of attendre",
-        etymology: "Latin attendere"
-      },
-      {
-        word: "attrape",
-        pronunciation: "आत्राप",
-        meaning: "catch",
-        usage: "Attrape le ballon! (Catch the ball!)",
-        forms: "2nd person singular of attraper",
-        etymology: "Frankish trappa"
-      },
-      {
-        word: "au",
-        pronunciation: "ओ",
-        meaning: "the (masc.)",
-        usage: "Je vais au cinéma (I'm going to the cinema)",
-        forms: "Contraction of à + le",
-        etymology: "Latin ad + Germanic the"
-      },
-      {
-        word: "aussi",
-        pronunciation: "ओसी",
-        meaning: "also, too",
-        usage: "Moi aussi (Me too)",
-        forms: "Adverb; aussi...que (as...as)",
-        etymology: "Latin aliud sic"
-      },
-      {
-        word: "autres",
-        pronunciation: "ओत्र",
-        meaning: "others",
-        usage: "Les autres personnes (The other people)",
-        forms: "Plural of autre, can be pronoun or adjective",
-        etymology: "Latin alter"
-      },
-      {
-        word: "avales",
-        pronunciation: "आवाल",
-        meaning: "swallow",
-        usage: "Avale tes médicaments (Swallow your medicine)",
-        forms: "2nd person singular of avaler",
-        etymology: "Latin ad vallem"
-      },
-      {
-        word: "avec",
-        pronunciation: "आवेक",
-        meaning: "with",
-        usage: "Avec plaisir (With pleasure)",
-        forms: "Preposition",
-        etymology: "Latin ab hoc"
-      },
-      {
-        word: "avez",
-        pronunciation: "आवे",
-        meaning: "have (2nd person pl.)",
-        usage: "Vous avez raison (You are right)",
-        forms: "2nd person plural of avoir",
-        etymology: "Latin habere"
-      },
-      {
-        word: "avoir",
-        pronunciation: "आवोआर",
-        meaning: "to have",
-        usage: "Il faut avoir du courage (One must have courage)",
-        forms: "Infinitive; auxiliary verb",
-        etymology: "Latin habere"
-      },
-      {
-        word: "bagarre",
-        pronunciation: "बगार",
-        meaning: "fight, brawl",
-        usage: "Une bagarre dans la rue (A fight in the street)",
-        forms: "Feminine noun; se bagarrer (to fight)",
-        etymology: "Provençal bagarro"
-      },
-      {
-        word: "bande",
-        pronunciation: "बांद",
-        meaning: "band, gang",
-        usage: "Une bande d'amis (A group of friends)",
-        forms: "Feminine noun; also 'tape, strip'",
-        etymology: "Germanic binda"
-      },
-      {
-        word: "battre",
-        pronunciation: "बात्र",
-        meaning: "to beat, hit",
-        usage: "Battre les œufs (Beat the eggs)",
-        forms: "Infinitive; se battre (to fight)",
-        etymology: "Latin battuere"
-      },
-      {
-        word: "bien",
-        pronunciation: "बिअं",
-        meaning: "well, good",
-        usage: "Très bien! (Very good!)",
-        forms: "Adverb; also noun 'good thing'",
-        etymology: "Latin bene"
-      },
-      {
-        word: "bizarre",
-        pronunciation: "बिज़ार",
-        meaning: "strange, weird",
-        usage: "C'est bizarre! (That's strange!)",
-        forms: "Adjective; bizarrerie (strangeness)",
-        etymology: "Basque bizar (beard)"
-      },
-      {
-        word: "bob",
-        pronunciation: "बॉब",
-        meaning: "Bob (name)",
-        usage: "Salut Bob! (Hi Bob!)",
-        forms: "Proper noun",
-        etymology: "English diminutive of Robert"
-      },
-      {
-        word: "bon",
-        pronunciation: "बों",
-        meaning: "good",
-        usage: "Bon appétit! (Enjoy your meal!)",
-        forms: "Masculine adjective; bonne (fem.)",
-        etymology: "Latin bonus"
-      },
-      {
-        word: "bonne",
-        pronunciation: "बॉन",
-        meaning: "good (feminine)",
-        usage: "Bonne nuit! (Good night!)",
-        forms: "Feminine form of bon",
-        etymology: "Latin bona"
-      },
-      {
-        word: "botte",
-        pronunciation: "बॉत",
-        meaning: "boot",
-        usage: "Une paire de bottes (A pair of boots)",
-        forms: "Feminine noun; botter (to put on boots)",
-        etymology: "Germanic bota"
-      },
-      {
-        word: "c'est",
-        pronunciation: "से",
-        meaning: "it is",
-        usage: "C'est formidable! (It's wonderful!)",
-        forms: "Contraction of ce + est",
-        etymology: "Latin ecce est"
-      },
-      {
-        word: "c'était",
-        pronunciation: "सेते",
-        meaning: "it was",
-        usage: "C'était magnifique (It was magnificent)",
-        forms: "Contraction of ce + était",
-        etymology: "Latin ecce + erat"
-      },
-      {
-        word: "ça",
-        pronunciation: "सा",
-        meaning: "that, it",
-        usage: "Ça va? (How are you?)",
-        forms: "Demonstrative pronoun, informal",
-        etymology: "Latin ecce hoc"
-      },
-      {
-        word: "calcium",
-        pronunciation: "कैल्सिअम",
-        meaning: "calcium",
-        usage: "Le calcium est important (Calcium is important)",
-        forms: "Masculine noun",
-        etymology: "Latin calx (lime)"
-      },
-      {
-        word: "carreau",
-        pronunciation: "कारो",
-        meaning: "tile, square",
-        usage: "Un carreau de fenêtre (A window pane)",
-        forms: "Masculine noun; also card suit",
-        etymology: "Latin quadrellus"
-      },
-      {
-        word: "cartes",
-        pronunciation: "कार्त",
-        meaning: "cards",
-        usage: "Jouer aux cartes (Play cards)",
-        forms: "Plural of carte; maps, cards",
-        etymology: "Latin charta"
-      },
-      {
-        word: "cas",
-        pronunciation: "का",
-        meaning: "case",
-        usage: "En cas de problème (In case of problem)",
-        forms: "Masculine noun; legal/medical contexts",
-        etymology: "Latin casus"
-      },
-      {
-        word: "ce",
-        pronunciation: "स",
-        meaning: "this, that",
-        usage: "Ce livre (This book)",
-        forms: "Demonstrative adjective; cet, cette, ces",
-        etymology: "Latin ecce"
-      },
-      {
-        word: "célèbre",
-        pronunciation: "सेलेब्र",
-        meaning: "famous",
-        usage: "Un acteur célèbre (A famous actor)",
-        forms: "Adjective; célébrité (celebrity)",
-        etymology: "Latin celebris"
-      },
-      {
-        word: "cent",
-        pronunciation: "सां",
-        meaning: "hundred",
-        usage: "Cent euros (One hundred euros)",
-        forms: "Number; centaine (about a hundred)",
-        etymology: "Latin centum"
-      },
-      {
-        word: "cette",
-        pronunciation: "सेत",
-        meaning: "this (fem.)",
-        usage: "Cette maison (This house)",
-        forms: "Feminine form of ce",
-        etymology: "Latin ecce ista"
-      },
-      {
-        word: "champions",
-        pronunciation: "शाम्पिअं",
-        meaning: "champions",
-        usage: "Les champions du monde (World champions)",
-        forms: "Plural of champion",
-        etymology: "Latin campio"
-      },
-      {
-        word: "chante",
-        pronunciation: "शांत",
-        meaning: "sing",
-        usage: "Elle chante bien (She sings well)",
-        forms: "3rd person singular of chanter",
-        etymology: "Latin cantare"
-      },
-      {
-        word: "charlie",
-        pronunciation: "शार्ली",
-        meaning: "Charlie (name)",
-        usage: "Charlie est sympa (Charlie is nice)",
-        forms: "Proper noun",
-        etymology: "Germanic Karl"
-      },
-      {
-        word: "château",
-        pronunciation: "शातो",
-        meaning: "castle",
-        usage: "Le château de Versailles (Versailles castle)",
-        forms: "Masculine noun; châtelain (lord)",
-        etymology: "Latin castellum"
-      },
-      {
-        word: "chum",
-        pronunciation: "शम",
-        meaning: "buddy, pal",
-        usage: "Mon chum (My buddy)",
-        forms: "Masculine noun, Canadian French",
-        etymology: "English 'chum'"
-      },
-      {
-        word: "chums",
-        pronunciation: "शम्स",
-        meaning: "buddies",
-        usage: "Mes chums (My buddies)",
-        forms: "Plural of chum",
-        etymology: "English 'chums'"
-      },
-      {
-        word: "cinquante",
-        pronunciation: "सिंकांत",
-        meaning: "fifty",
-        usage: "Cinquante ans (Fifty years)",
-        forms: "Number; cinquantaine (about fifty)",
-        etymology: "Latin quinquaginta"
-      },
-      {
-        word: "combien",
-        pronunciation: "कोम्बिअं",
-        meaning: "how much/many",
-        usage: "Combien ça coûte? (How much does it cost?)",
-        forms: "Interrogative adverb",
-        etymology: "Latin quam bene"
-      },
-      {
-        word: "combat",
-        pronunciation: "कोम्बा",
-        meaning: "combat, fight",
-        usage: "Un combat difficile (A difficult fight)",
-        forms: "Masculine noun; combattre (to fight)",
-        etymology: "Latin com + battuere"
-      },
-      {
-        word: "comme",
-        pronunciation: "कॉम",
-        meaning: "like, as",
-        usage: "Comme tu veux (As you wish)",
-        forms: "Preposition/adverb",
-        etymology: "Latin quomodo"
-      },
-      {
-        word: "commencer",
-        pronunciation: "कोमांसे",
-        meaning: "to begin",
-        usage: "Commencer le travail (Begin the work)",
-        forms: "Infinitive; commencement (beginning)",
-        etymology: "Latin com + initiare"
-      },
-      {
-        word: "comment",
-        pronunciation: "कोमां",
-        meaning: "how",
-        usage: "Comment allez-vous? (How are you?)",
-        forms: "Interrogative adverb",
-        etymology: "Latin quomodo"
-      },
-      {
-        word: "connaissez",
-        pronunciation: "कोनेसे",
-        meaning: "know (2nd pl.)",
-        usage: "Vous connaissez Paris? (Do you know Paris?)",
-        forms: "2nd person plural of connaître",
-        etymology: "Latin cognoscere"
-      },
-      {
-        word: "connais",
-        pronunciation: "कोने",
-        meaning: "know (1st sing.)",
-        usage: "Je connais cette personne (I know this person)",
-        forms: "1st person singular of connaître",
-        etymology: "Latin cognoscere"
-      },
-      {
-        word: "constater",
-        pronunciation: "कोंस्तते",
-        meaning: "to notice, observe",
-        usage: "Je peux constater (I can observe)",
-        forms: "Infinitive; constatation (observation)",
-        etymology: "Latin con + stare"
-      },
-      {
-        word: "construits",
-        pronunciation: "कोंस्त्रुई",
-        meaning: "built",
-        usage: "Des bâtiments construits (Built buildings)",
-        forms: "Past participle of construire",
-        etymology: "Latin construere"
-      },
-      {
-        word: "coup",
-        pronunciation: "कू",
-        meaning: "blow, hit",
-        usage: "Un coup de poing (A punch)",
-        forms: "Masculine noun; many expressions",
-        etymology: "Germanic colp"
-      },
-      {
-        word: "corde",
-        pronunciation: "कॉर्द",
-        meaning: "rope",
-        usage: "Une corde solide (A strong rope)",
-        forms: "Feminine noun; cordage (rigging)",
-        etymology: "Latin chorda"
-      },
-      {
-        word: "cours",
-        pronunciation: "कूर",
-        meaning: "course, class",
-        usage: "J'ai cours demain (I have class tomorrow)",
-        forms: "Masculine noun; also from courir",
-        etymology: "Latin cursus"
-      },
-      {
-        word: "cousin",
-        pronunciation: "कूज़िं",
-        meaning: "cousin (masc.)",
-        usage: "Mon cousin Pierre (My cousin Pierre)",
-        forms: "Masculine noun; cousine (fem.)",
-        etymology: "Latin consobrinus"
-      },
-      {
-        word: "crabe",
-        pronunciation: "क्राब",
-        meaning: "crab",
-        usage: "Un crabe sur la plage (A crab on the beach)",
-        forms: "Masculine noun",
-        etymology: "Germanic krabba"
-      },
-      {
-        word: "cruel",
-        pronunciation: "क्रुएल",
-        meaning: "cruel",
-        usage: "Un homme cruel (A cruel man)",
-        forms: "Adjective; cruauté (cruelty)",
-        etymology: "Latin crudelis"
-      },
-      {
-        word: "croustillant",
-        pronunciation: "क्रुस्तिलां",
-        meaning: "crispy",
-        usage: "Du pain croustillant (Crispy bread)",
-        forms: "Adjective; croustiller (to be crispy)",
-        etymology: "From croûte (crust)"
-      },
-      {
-        word: "cru",
-        pronunciation: "क्रु",
-        meaning: "raw, crude",
-        usage: "De la viande crue (Raw meat)",
-        forms: "Adjective; also past participle of croire",
-        etymology: "Latin crudus"
-      },
-      {
-        word: "dame",
-        pronunciation: "दाम",
-        meaning: "lady",
-        usage: "Une vieille dame (An old lady)",
-        forms: "Feminine noun; dames (checkers)",
-        etymology: "Latin domina"
-      },
-      {
-        word: "dans",
-        pronunciation: "दां",
-        meaning: "in",
-        usage: "Dans la maison (In the house)",
-        forms: "Preposition",
-        etymology: "Latin de intus"
-      },
-      {
-        word: "date",
-        pronunciation: "दात",
-        meaning: "date",
-        usage: "Quelle est la date? (What's the date?)",
-        forms: "Feminine noun; dater (to date)",
-        etymology: "Latin data"
-      },
-      {
-        word: "de",
-        pronunciation: "द",
-        meaning: "of, from",
-        usage: "Le livre de Marie (Marie's book)",
-        forms: "Preposition; du, des (contractions)",
-        etymology: "Latin de"
-      },
-      {
-        word: "décidé",
-        pronunciation: "देसिदे",
-        meaning: "decided",
-        usage: "J'ai décidé (I decided)",
-        forms: "Past participle of décider",
-        etymology: "Latin decidere"
-      },
-      {
-        word: "défi",
-        pronunciation: "देफी",
-        meaning: "challenge",
-        usage: "Relever un défi (Take up a challenge)",
-        forms: "Masculine noun; défier (to challenge)",
-        etymology: "Old French desfier"
-      },
-      {
-        word: "dent",
-        pronunciation: "दां",
-        meaning: "tooth",
-        usage: "Une dent cassée (A broken tooth)",
-        forms: "Feminine noun; dentiste (dentist)",
-        etymology: "Latin dens"
-      },
-      {
-        word: "des",
-        pronunciation: "दे",
-        meaning: "some, of the",
-        usage: "Des amis (Some friends)",
-        forms: "Plural article; contraction of de + les",
-        etymology: "Latin de + Germanic"
-      },
-      {
-        word: "deux",
-        pronunciation: "दू",
-        meaning: "two",
-        usage: "Deux enfants (Two children)",
-        forms: "Number; deuxième (second)",
-        etymology: "Latin duos"
-      },
-      {
-        word: "devise",
-        pronunciation: "देवीज़",
-        meaning: "motto, currency",
-        usage: "La devise nationale (National motto)",
-        forms: "Feminine noun; deviser (to chat)",
-        etymology: "Latin dividere"
-      },
-      {
-        word: "dit",
-        pronunciation: "दी",
-        meaning: "says, said",
-        usage: "Il dit la vérité (He tells the truth)",
-        forms: "3rd person singular of dire",
-        etymology: "Latin dicit"
-      },
-      {
-        word: "dis",
-        pronunciation: "दी",
-        meaning: "say",
-        usage: "Dis-moi (Tell me)",
-        forms: "2nd person singular of dire",
-        etymology: "Latin dic"
-      },
-      {
-        word: "don",
-        pronunciation: "दॉन",
-        meaning: "give",
-        usage: "Donne-moi ça! (Give me that!)",
-        forms: "2nd person singular imperative of donner",
-        etymology: "Latin donare"
-      },
-      {
-        word: "donc",
-        pronunciation: "दोंक",
-        meaning: "so, therefore",
-        usage: "Je pense, donc je suis (I think, therefore I am)",
-        forms: "Conjunction",
-        etymology: "Latin de unde"
-      },
-      {
-        word: "douzaines",
-        pronunciation: "दुज़ेन",
-        meaning: "dozens",
-        usage: "Des douzaines d'œufs (Dozens of eggs)",
-        forms: "Plural of douzaine",
-        etymology: "From douze (twelve)"
-      },
-      {
-        word: "duo",
-        pronunciation: "दु",
-        meaning: "the (masc.)",
-        usage: "Du pain (Some bread)",
-        forms: "Contraction of de + le",
-        etymology: "Latin de + Germanic"
-      },
-      {
-        word: "dure",
-        pronunciation: "दुर",
-        meaning: "hard, lasts",
-        usage: "La vie est dure (Life is hard)",
-        forms: "Adjective; also 3rd person singular of durer",
-        etymology: "Latin durus"
-      },
-      {
-        word: "earl",
-        pronunciation: "अर्ल",
-        meaning: "Earl (name)",
-        usage: "Earl Grey tea",
-        forms: "English name/title",
-        etymology: "Old English eorl"
-      },
-      {
-        word: "écoutez",
-        pronunciation: "एकूते",
-        meaning: "listen",
-        usage: "Écoutez-moi! (Listen to me!)",
-        forms: "2nd person plural imperative of écouter",
-        etymology: "Latin auscultare"
-      },
-      {
-        word: "en",
-        pronunciation: "अं",
-        meaning: "in, some",
-        usage: "En France (In France)",
-        forms: "Preposition/pronoun",
-        etymology: "Latin inde"
-      },
-      {
-        word: "encore",
-        pronunciation: "आंकोर",
-        meaning: "still, again",
-        usage: "Encore une fois (One more time)",
-        forms: "Adverb",
-        etymology: "Latin hanc horam"
-      },
-      {
-        word: "eux",
-        pronunciation: "ऊ",
-        meaning: "them (masc.)",
-        usage: "Avec eux (With them)",
-        forms: "Stressed pronoun masculine",
-        etymology: "Latin illos"
-      },
-      {
-        word: "évidemment",
-        pronunciation: "एविदमां",
-        meaning: "obviously",
-        usage: "Évidemment! (Obviously!)",
-        forms: "Adverb; évident (obvious)",
-        etymology: "Latin evidenter"
-      },
-      {
-        word: "exacte",
-        pronunciation: "एग्ज़ाक्त",
-        meaning: "exact (fem.)",
-        usage: "L'heure exacte (The exact time)",
-        forms: "Feminine form of exact",
-        etymology: "Latin exactus"
-      },
-      {
-        word: "exemple",
-        pronunciation: "एग्ज़ाम्प्ल",
-        meaning: "example",
-        usage: "Par exemple (For example)",
-        forms: "Masculine noun",
-        etymology: "Latin exemplum"
-      },
-      {
-        word: "exercice",
-        pronunciation: "एग्ज़ेर्सीस",
-        meaning: "exercise",
-        usage: "Faire de l'exercice (Do exercise)",
-        forms: "Masculine noun; exercer (to exercise)",
-        etymology: "Latin exercitium"
-      },
-      {
-        word: "exploits",
-        pronunciation: "एक्सप्लोई",
-        meaning: "exploits, feats",
-        usage: "Ses exploits sportifs (His athletic feats)",
-        forms: "Plural of exploit",
-        etymology: "Latin explicitum"
-      },
-      {
-        word: "extrême",
-        pronunciation: "एक्सत्रेम",
-        meaning: "extreme",
-        usage: "Un cas extrême (An extreme case)",
-        forms: "Adjective; extrêmement (extremely)",
-        etymology: "Latin extremus"
-      },
-      {
-        word: "façon",
-        pronunciation: "फासों",
-        meaning: "way, manner",
-        usage: "D'une façon ou d'une autre (One way or another)",
-        forms: "Feminine noun",
-        etymology: "Latin facere"
-      },
-      {
-        word: "faire",
-        pronunciation: "फेर",
-        meaning: "to do, make",
-        usage: "Faire du sport (Do sports)",
-        forms: "Infinitive; fait (done)",
-        etymology: "Latin facere"
-      },
-      {
-        word: "fait",
-        pronunciation: "फे",
-        meaning: "does, fact",
-        usage: "Il fait beau (It's nice weather)",
-        forms: "3rd person singular of faire; also noun",
-        etymology: "Latin factum"
-      },
-      {
-        word: "fais",
-        pronunciation: "फे",
-        meaning: "do, make",
-        usage: "Tu fais quoi? (What are you doing?)",
-        forms: "2nd person singular of faire",
-        etymology: "Latin facis"
-      },
-      {
-        word: "fallait",
-        pronunciation: "फाले",
-        meaning: "was necessary",
-        usage: "Il fallait partir (It was necessary to leave)",
-        forms: "Imperfect of falloir",
-        etymology: "Latin fallere"
-      },
-      {
-        word: "faute",
-        pronunciation: "फोत",
-        meaning: "fault, mistake",
-        usage: "C'est ma faute (It's my fault)",
-        forms: "Feminine noun; fautif (guilty)",
-        etymology: "Latin fallere"
-      },
-      {
-        word: "faut",
-        pronunciation: "फो",
-        meaning: "must, need",
-        usage: "Il faut partir (We must leave)",
-        forms: "3rd person singular of falloir",
-        etymology: "Latin fallet"
-      },
-      {
-        word: "ferme",
-        pronunciation: "फेर्म",
-        meaning: "farm, close",
-        usage: "Une ferme bio (An organic farm)",
-        forms: "Feminine noun; also imperative of fermer",
-        etymology: "Latin firma"
-      },
-      {
-        word: "fermes",
-        pronunciation: "फेर्म",
-        meaning: "farms, close",
-        usage: "Tu fermes la porte? (Are you closing the door?)",
-        forms: "Plural of ferme; 2nd person singular of fermer",
-        etymology: "Latin firmas"
-      },
-      {
-        word: "feu",
-        pronunciation: "फू",
-        meaning: "fire",
-        usage: "Un feu de camp (A campfire)",
-        forms: "Masculine noun; feux (plural)",
-        etymology: "Latin focus"
-      },
-      {
-        word: "fièvre",
-        pronunciation: "फिएव्र",
-        meaning: "fever",
-        usage: "Avoir de la fièvre (To have a fever)",
-        forms: "Feminine noun; fiévreux (feverish)",
-        etymology: "Latin febris"
-      },
-      {
-        word: "figé",
-        pronunciation: "फिझे",
-        meaning: "frozen, rigid",
-        usage: "Un sourire figé (A frozen smile)",
-        forms: "Past participle of figer",
-        etymology: "Latin figere"
-      },
-      {
-        word: "figure",
-        pronunciation: "फिगुर",
-        meaning: "face, figure",
-        usage: "Une figure familière (A familiar face)",
-        forms: "Feminine noun; figurer (to appear)",
-        etymology: "Latin figura"
-      },
-      {
-        word: "figurant",
-        pronunciation: "फिगुरां",
-        meaning: "extra (actor)",
-        usage: "Un figurant dans le film (An extra in the movie)",
-        forms: "Present participle of figurer; noun",
-        etymology: "Latin figurans"
-      },
-      {
-        word: "fini",
-        pronunciation: "फिनी",
-        meaning: "finished",
-        usage: "C'est fini! (It's finished!)",
-        forms: "Past participle of finir",
-        etymology: "Latin finitus"
-      },
-      {
-        word: "fois",
-        pronunciation: "फोआ",
-        meaning: "time, times",
-        usage: "Une fois (Once)",
-        forms: "Feminine noun; à la fois (at the same time)",
-        etymology: "Latin vice"
-      },
-      {
-        word: "folie",
-        pronunciation: "फोली",
-        meaning: "madness",
-        usage: "C'est de la folie! (It's madness!)",
-        forms: "Feminine noun; fou (crazy)",
-        etymology: "Latin follia"
-      },
-      {
-        word: "font",
-        pronunciation: "फों",
-        meaning: "do, make",
-        usage: "Ils font du bruit (They're making noise)",
-        forms: "3rd person plural of faire",
-        etymology: "Latin faciunt"
-      },
-      {
-        word: "françois",
-        pronunciation: "फ्राँसोआ",
-        meaning: "François (name)",
-        usage: "François Mitterrand",
-        forms: "French proper noun",
-        etymology: "Germanic Frank"
-      },
-      {
-        word: "frites",
-        pronunciation: "फ्रीत",
-        meaning: "fries",
-        usage: "Des frites dorées (Golden fries)",
-        forms: "Plural of frite; short for pommes frites",
-        etymology: "Past participle of frire"
-      },
-      {
-        word: "garde",
-        pronunciation: "गार्द",
-        meaning: "guard, keep",
-        usage: "Garde le secret! (Keep the secret!)",
-        forms: "Imperative of garder; also noun",
-        etymology: "Germanic warda"
-      },
-      {
-        word: "gary",
-        pronunciation: "गैरी",
-        meaning: "Gary (name)",
-        usage: "Gary Cooper",
-        forms: "English proper noun",
-        etymology: "Germanic gar (spear)"
-      },
-      {
-        word: "génial",
-        pronunciation: "झेनिअल",
-        meaning: "great, brilliant",
-        usage: "C'est génial! (That's great!)",
-        forms: "Adjective; génie (genius)",
-        etymology: "Latin genialis"
-      },
-      {
-        word: "génère",
-        pronunciation: "झेनेर",
-        meaning: "generates",
-        usage: "Cela génère des problèmes (That generates problems)",
-        forms: "3rd person singular of générer",
-        etymology: "Latin generare"
-      },
-      {
-        word: "gens",
-        pronunciation: "झां",
-        meaning: "people",
-        usage: "Les gens sont gentils (People are nice)",
-        forms: "Plural noun; always plural",
-        etymology: "Latin gentes"
-      },
-      {
-        word: "gentils",
-        pronunciation: "झांती",
-        meaning: "nice, kind",
-        usage: "Des enfants gentils (Nice children)",
-        forms: "Plural masculine of gentil",
-        etymology: "Latin gentilis"
-      },
-      {
-        word: "grand",
-        pronunciation: "ग्रां",
-        meaning: "big, tall",
-        usage: "Un grand homme (A tall man)",
-        forms: "Masculine adjective; grande (fem.)",
-        etymology: "Latin grandis"
-      },
-      {
-        word: "grande",
-        pronunciation: "ग्रांद",
-        meaning: "big, tall (fem.)",
-        usage: "Une grande maison (A big house)",
-        forms: "Feminine form of grand",
-        etymology: "Latin grandis"
-      },
-      {
-        word: "gratte",
-        pronunciation: "ग्रात",
-        meaning: "scratch",
-        usage: "Il gratte sa tête (He scratches his head)",
-        forms: "3rd person singular of gratter",
-        etymology: "Germanic kratton"
-      },
-      {
-        word: "grillé",
-        pronunciation: "ग्रिले",
-        meaning: "grilled, toasted",
-        usage: "Du pain grillé (Toasted bread)",
-        forms: "Past participle of griller",
-        etymology: "Latin craticulum"
-      },
-      {
-        word: "grimper",
-        pronunciation: "ग्रिम्पे",
-        meaning: "to climb",
-        usage: "Grimper un arbre (Climb a tree)",
-        forms: "Infinitive; grimpeur (climber)",
-        etymology: "Germanic krimpen"
-      },
-      {
-        word: "gros",
-        pronunciation: "ग्रो",
-        meaning: "big, fat",
-        usage: "Un gros chien (A big dog)",
-        forms: "Masculine adjective; grosse (fem.)",
-        etymology: "Latin grossus"
-      },
-      {
-        word: "guerre",
-        pronunciation: "गेर",
-        meaning: "war",
-        usage: "La guerre mondiale (World war)",
-        forms: "Feminine noun; guerrier (warrior)",
-        etymology: "Germanic werra"
-      },
-      {
-        word: "habits",
-        pronunciation: "आबी",
-        meaning: "clothes",
-        usage: "Des habits neufs (New clothes)",
-        forms: "Plural of habit",
-        etymology: "Latin habitus"
-      },
-      {
-        word: "hanche",
-        pronunciation: "आंश",
-        meaning: "hip",
-        usage: "La hanche droite (The right hip)",
-        forms: "Feminine noun",
-        etymology: "Germanic hanka"
-      },
-      {
-        word: "hâte",
-        pronunciation: "आत",
-        meaning: "haste",
-        usage: "J'ai hâte! (I can't wait!)",
-        forms: "Feminine noun; se hâter (to hurry)",
-        etymology: "Germanic haist"
-      },
-      {
-        word: "heure",
-        pronunciation: "ऊर",
-        meaning: "hour, time",
-        usage: "Quelle heure est-il? (What time is it?)",
-        forms: "Feminine noun; horaire (schedule)",
-        etymology: "Latin hora"
-      },
-      {
-        word: "hourra",
-        pronunciation: "हूरा",
-        meaning: "hurray",
-        usage: "Hourra! Nous avons gagné! (Hurray! We won!)",
-        forms: "Interjection",
-        etymology: "Germanic exclamation"
-      },
-      {
-        word: "il",
-        pronunciation: "इल",
-        meaning: "he, it",
-        usage: "Il est parti (He left)",
-        forms: "Subject pronoun masculine singular",
-        etymology: "Latin ille"
-      },
-      {
-        word: "ils",
-        pronunciation: "इल",
-        meaning: "they (masc.)",
-        usage: "Ils arrivent (They're coming)",
-        forms: "Subject pronoun masculine plural",
-        etymology: "Latin illi"
-      },
-      {
-        word: "incroyable",
-        pronunciation: "इंक्रोयाब्ल",
-        meaning: "incredible",
-        usage: "C'est incroyable! (It's incredible!)",
-        forms: "Adjective; croire (to believe)",
-        etymology: "Latin in + credibilis"
-      },
-      {
-        word: "infusion",
-        pronunciation: "इंफुज़िअं",
-        meaning: "infusion, tea",
-        usage: "Une infusion de camomille (Chamomile tea)",
-        forms: "Feminine noun; infuser (to infuse)",
-        etymology: "Latin infusio"
-      },
-      {
-        word: "inquiète",
-        pronunciation: "इंकिएत",
-        meaning: "worried (fem.)",
-        usage: "Elle est inquiète (she is worried)",
-        forms: "Feminine form of inquiet",
-        etymology: "Latin in + quietus"
-      },
-      {
-        word: "invité",
-        pronunciation: "इंवीते",
-        meaning: "guest, invited",
-        usage: "Un invité surprise (A surprise guest)",
-        forms: "Past participle of inviter; also noun",
-        etymology: "Latin invitatus"
-      },
-      {
-        word: "j'adore",
-        pronunciation: "झादॉर",
-        meaning: "I love",
-        usage: "J'adore le chocolat (I love chocolate)",
-        forms: "1st person singular of adorer",
-        etymology: "Latin adorare"
-      },
-      {
-        word: "j'ai",
-        pronunciation: "झे",
-        meaning: "I have",
-        usage: "J'ai faim (I'm hungry)",
-        forms: "1st person singular of avoir",
-        etymology: "Latin habeo"
-      },
-      {
-        word: "j'en",
-        pronunciation: "झां",
-        meaning: "I... some/of it",
-        usage: "J'en veux (I want some)",
-        forms: "Contraction of je + en",
-        etymology: "Latin ego + inde"
-      },
-      {
-        word: "j'essaye",
-        pronunciation: "झेसे",
-        meaning: "I try",
-        usage: "J'essaye de comprendre (I try to understand)",
-        forms: "1st person singular of essayer",
-        etymology: "Latin exagiare"
-      },
-      {
-        word: "jeter",
-        pronunciation: "झते",
-        meaning: "to throw",
-        usage: "Jeter la balle (Throw the ball)",
-        forms: "Infinitive; jet (throw)",
-        etymology: "Latin jactare"
-      },
-      {
-        word: "jeu",
-        pronunciation: "झू",
-        meaning: "game",
-        usage: "Un jeu vidéo (A video game)",
-        forms: "Masculine noun; jouer (to play)",
-        etymology: "Latin jocus"
-      },
-      {
-        word: "jolie",
-        pronunciation: "झोली",
-        meaning: "pretty",
-        usage: "Une jolie fille (A pretty girl)",
-        forms: "Feminine form of joli",
-        etymology: "Old French jolif"
-      },
-      {
-        word: "joue",
-        pronunciation: "झू",
-        meaning: "cheek, play",
-        usage: "La joue rouge (The red cheek)",
-        forms: "Feminine noun; also 3rd person singular of joueur",
-        etymology: "Latin gaba"
-      },
-      {
-        word: "joueur",
-        pronunciation: "झुए",
-        meaning: "player",
-        usage: "Joueur de football (Football player)",
-        forms: "Noun; jouer (to play)",
-        etymology: "Latin jocare"
-      },
-      {
-        word: "journée",
-        pronunciation: "झुर्ने",
-        meaning: "day",
-        usage: "Bonne journée! (Have a good day)",
-        forms: "Feminine noun; duration of day",
-        etymology: "From jour (day)"
-      },
-      {
-        word: "jure",
-        pronunciation: "झुर",
-        meaning: "swear",
-        usage: "Je te jure! (I swear to you!)",
-        forms: "1st person singular of jurer",
-        etymology: "Latin jurare"
-      },
-      {
-        word: "juste",
-        pronunciation: "झुस्त",
-        meaning: "just, fair",
-        usage: "C'est juste (It's fair)",
-        forms: "Adjective; justice (justice)",
-        etymology: "Latin justus"
-      },
-      {
-        word: "killer",
-        pronunciation: "किलर",
-        meaning: "killer",
-        usage: "Un regard killer (A killer look)",
-        forms: "Anglicism",
-        etymology: "English 'killer'"
-      },
-      {
-        word: "l'autre",
-        pronunciation: "लोत्र",
-        meaning: "the other",
-        usage: "L'autre côté (The other side)",
-        forms: "Contraction of le/la + autre",
-        etymology: "Latin alter"
-      },
-      {
-        word: "l'exercice",
-        pronunciation: "लेग्ज़ेर्सीस",
-        meaning: "the exercise",
-        usage: "L'exercice est difficile (The exercise is difficult)",
-        forms: "Contraction of le + exercice",
-        etymology: "Latin exercitium"
-      },
-      {
-        word: "l'heure",
-        pronunciation: "लऊर",
-        meaning: "the time",
-        usage: "L'heure du déjeuner (Lunch time)",
-        forms: "Contraction of la + heure",
-        etymology: "Latin hora"
-      },
-      {
-        word: "la",
-        pronunciation: "ला",
-        meaning: "the (fem.)",
-        usage: "La maison (The house)",
-        forms: "Feminine definite article",
-        etymology: "Latin illa"
-      },
-      {
-        word: "laisse",
-        pronunciation: "लेस",
-        meaning: "leash, leave",
-        usage: "Laisse-moi tranquille! (Leave me alone!)",
-        forms: "Imperative of laisser; also noun",
-        etymology: "Latin laxare"
-      },
-      {
-        word: "lancée",
-        pronunciation: "लांसे",
-        meaning: "launched (fem.)",
-        usage: "Une fusée lancée (A launched rocket)",
-        forms: "Feminine past participle of lancer",
-        etymology: "Latin lanceare"
-      },
-      {
-        word: "langue",
-        pronunciation: "लांग",
-        meaning: "language, tongue",
-        usage: "La langue française (The French language)",
-        forms: "Feminine noun; linguiste (linguist)",
-        etymology: "Latin lingua"
-      },
-      {
-        word: "le",
-        pronunciation: "ल",
-        meaning: "the (masc.)",
-        usage: "Le chat (The cat)",
-        forms: "Masculine definite article",
-        etymology: "Latin ille"
-      },
-      {
-        word: "les",
-        pronunciation: "ले",
-        meaning: "the (plural)",
-        usage: "Les enfants (The children)",
-        forms: "Plural definite article",
-        etymology: "Latin illi"
-      },
-      {
-        word: "leur",
-        pronunciation: "लूर",
-        meaning: "their",
-        usage: "Leur maison (Their house)",
-        forms: "Possessive adjective/pronoun",
-        etymology: "Latin illorum"
-      },
-      {
-        word: "litière",
-        pronunciation: "लितिएर",
-        meaning: "litter",
-        usage: "La litière du chat (Cat litter)",
-        forms: "Feminine noun; lit (bed)",
-        etymology: "Latin lectu"
-      },
-      {
-        word: "livre",
-        pronunciation: "लीव्र",
-        meaning: "book, pound",
-        usage: "Un livre passionnant (A fascinating book)",
-        forms: "Masculine noun (book); feminine (pound)",
-        etymology: "Latin liber / libra"
-      },
-      {
-        word: "longue",
-        pronunciation: "लोंग",
-        meaning: "long (fem.)",
-        usage: "Une longue route (A long road)",
-        forms: "Feminine form of long",
-        etymology: "Latin longus"
-      },
-      {
-        word: "loué",
-        pronunciation: "लुए",
-        meaning: "praised, rented",
-        usage: "Appartement loué (Rented apartment)",
-        forms: "Past participle of louer",
-        etymology: "Latin laudare / locare"
-      },
-      {
-        word: "ma",
-        pronunciation: "मा",
-        meaning: "my (fem.)",
-        usage: "Ma mère (My mother)",
-        forms: "Feminine possessive adjective",
-        etymology: "Latin mea"
-      },
-      {
-        word: "mais",
-        pronunciation: "मे",
-        meaning: "but",
-        usage: "Petit mais fort (Small but strong)",
-        forms: "Conjunction",
-        etymology: "Latin magis"
-      },
-      {
-        word: "mal",
-        pronunciation: "माल",
-        meaning: "bad, badly",
-        usage: "Ça va mal (Things are going badly)",
-        forms: "Adverb/noun; opposite of bien",
-        etymology: "Latin male"
-      },
-      {
-        word: "mamie",
-        pronunciation: "मामी",
-        meaning: "grandma",
-        usage: "Ma mamie (My grandma)",
-        forms: "Feminine noun, informal",
-        etymology: "Baby talk"
-      },
-      {
-        word: "marques",
-        pronunciation: "मार्क",
-        meaning: "marks, brands",
-        usage: "Les marques célèbres (Famous brands)",
-        forms: "Plural of marque",
-        etymology: "Germanic mark"
-      },
-      {
-        word: "mauvais",
-        pronunciation: "मोवे",
-        meaning: "bad",
-        usage: "Un mauvais temps (Bad weather)",
-        forms: "Masculine adjective; mauvaise (fem.)",
-        etymology: "Latin malus"
-      },
-      {
-        word: "maximum",
-        pronunciation: "मैक्सिमम",
-        meaning: "maximum",
-        usage: "Le maximum possible (The maximum possible)",
-        forms: "Noun/adjective",
-        etymology: "Latin maximum"
-      },
-      {
-        word: "méchants",
-        pronunciation: "मेशां",
-        meaning: "mean, naughty",
-        usage: "Des enfants méchants (Naughty children)",
-        forms: "Plural masculine of méchant",
-        etymology: "From méchoir (to go wrong)"
-      },
-      {
-        word: "meilleur",
-        pronunciation: "मेयूर",
-        meaning: "better, best",
-        usage: "Le meilleur ami (The best friend)",
-        forms: "Comparative/superlative of bon",
-        etymology: "Latin melior"
-      },
-      {
-        word: "merci",
-        pronunciation: "मेर्सी",
-        meaning: "thank you",
-        usage: "Merci beaucoup! (Thank you very much!)",
-        forms: "Noun/interjection",
-        etymology: "Latin merces"
-      },
-      {
-        word: "mes",
-        pronunciation: "मे",
-        meaning: "my (plural)",
-        usage: "Mes enfants (My children)",
-        forms: "Plural possessive adjective",
-        etymology: "Latin meos/meas"
-      },
-      {
-        word: "mesure",
-        pronunciation: "मेज़ुर",
-        meaning: "measure",
-        usage: "Prendre des mesures (Take measures)",
-        forms: "Feminine noun; mesurer (to measure)",
-        etymology: "Latin mensura"
-      },
-      {
-        word: "mets",
-        pronunciation: "मे",
-        meaning: "put, dish",
-        usage: "Mets ça là! (Put that there!)",
-        forms: "2nd person singular of mettre; also noun (dish)",
-        etymology: "Latin mittere"
-      },
-      {
-        word: "mettre",
-        pronunciation: "मेत्र",
-        meaning: "to put",
-        usage: "Mettre la table (Set the table)",
-        forms: "Infinitive; mis (put)",
-        etymology: "Latin mittere"
-      },
-      {
-        word: "mètre",
-        pronunciation: "मेत्र",
-        meaning: "meter",
-        usage: "Un mètre de tissu (A meter of fabric)",
-        forms: "Masculine noun; métrique (metric)",
-        etymology: "Greek metron"
-      },
-      {
-        word: "mince",
-        pronunciation: "मिंस",
-        meaning: "thin, darn",
-        usage: "Une fille mince (A thin girl)",
-        forms: "Adjective; also mild exclamation",
-        etymology: "Latin minutus"
-      },
-      {
-        word: "minimum",
-        pronunciation: "मिनिमम",
-        meaning: "minimum",
-        usage: "Le minimum vital (The vital minimum)",
-        forms: "Noun/adjective",
-        etymology: "Latin minimum"
-      },
-      {
-        word: "miss",
-        pronunciation: "मिस",
-        meaning: "Miss",
-        usage: "Miss France",
-        forms: "English title",
-        etymology: "English 'Miss'"
-      },
-      {
-        word: "moi",
-        pronunciation: "मोआ",
-        meaning: "me",
-        usage: "C'est pour moi (It's for me)",
-        forms: "Stressed pronoun",
-        etymology: "Latin me"
-      },
-      {
-        word: "monde",
-        pronunciation: "मोंद",
-        meaning: "world",
-        usage: "Le monde entier (The whole world)",
-        forms: "Masculine noun; mondial (worldwide)",
-        etymology: "Latin mundus"
-      },
-      {
-        word: "montagne",
-        pronunciation: "मोंतान्य",
-        meaning: "mountain",
-        usage: "Une haute montagne (A high mountain)",
-        forms: "Feminine noun; montagnard (mountaineer)",
-        etymology: "Latin montanea"
-      },
-      {
-        word: "monter",
-        pronunciation: "मोंते",
-        meaning: "to go up",
-        usage: "Monter les escaliers (Go up the stairs)",
-        forms: "Infinitive; montée (ascent)",
-        etymology: "Latin montare"
-      },
-      {
-        word: "montrez",
-        pronunciation: "मोंत्रे",
-        meaning: "show",
-        usage: "Montrez-moi! (Show me!)",
-        forms: "2nd person plural imperative of montrer",
-        etymology: "Latin monstrare"
-      },
-      {
-        word: "mort",
-        pronunciation: "मॉर",
-        meaning: "death, dead",
-        usage: "La mort naturelle (Natural death)",
-        forms: "Feminine noun; also adjective",
-        etymology: "Latin mors"
-      },
-      {
-        word: "mouillé",
-        pronunciation: "मुये",
-        meaning: "wet",
-        usage: "Cheveux mouillés (Wet hair)",
-        forms: "Past participle of mouiller",
-        etymology: "Latin mollis"
-      },
-      {
-        word: "n'avez",
-        pronunciation: "नावे",
-        meaning: "don't have",
-        usage: "Vous n'avez pas (You don't have)",
-        forms: "Negative form of avez",
-        etymology: "Latin non habetis"
-      },
-      {
-        word: "néfaste",
-        pronunciation: "नेफास्त",
-        meaning: "harmful",
-        usage: "Un effet néfaste (A harmful effect)",
-        forms: "Adjective; néfaste (harmfulness)",
-        etymology: "Latin nefastus"
-      },
-      {
-        word: "neptune",
-        pronunciation: "नेप्तुन",
-        meaning: "Neptune",
-        usage: "La planète Neptune (Planet Neptune)",
-        forms: "Proper noun",
-        etymology: "Latin Neptunus"
-      },
-      {
-        word: "nettoyer",
-        pronunciation: "नेतोये",
-        meaning: "to clean",
-        usage: "Nettoyer la maison (Clean the house)",
-        forms: "Infinitive; nettoyage (cleaning)",
-        etymology: "From net (clean)"
-      },
-      {
-        word: "nez",
-        pronunciation: "ने",
-        meaning: "nose",
-        usage: "Un grand nez (A big nose)",
-        forms: "Masculine noun",
-        etymology: "Latin nasus"
-      },
-      {
-        word: "noël",
-        pronunciation: "नोएल",
-        meaning: "Christmas",
-        usage: "Joyeux Noël! (Merry Christmas!)",
-        forms: "Masculine noun; also name",
-        etymology: "Latin natalis"
-      },
-      {
-        word: "noix",
-        pronunciation: "नोआ",
-        meaning: "nuts",
-        usage: "Des noix fraîches (Fresh nuts)",
-        forms: "Feminine noun; noyer (walnut tree)",
-        etymology: "Latin nux"
-      },
-      {
-        word: "nombre",
-        pronunciation: "नोम्ब्र",
-        meaning: "number",
-        usage: "Un grand nombre (A large number)",
-        forms: "Masculine noun; nombreux (numerous)",
-        etymology: "Latin numerus"
-      },
-      {
-        word: "non",
-        pronunciation: "नों",
-        meaning: "no",
-        usage: "Non merci (No thank you)",
-        forms: "Adverb/interjection",
-        etymology: "Latin non"
-      },
-      {
-        word: "notre",
-        pronunciation: "नो",
-        meaning: "our",
-        usage: "Nos amis (Our friends)",
-        forms: "Plural possessive adjective",
-        etymology: "Latin nostros"
-      },
-      {
-        word: "nous",
-        pronunciation: "नू",
-        meaning: "we, us",
-        usage: "Nous partons (We're leaving)",
-        forms: "Subject/object pronoun",
-        etymology: "Latin nos"
-      },
-      {
-        word: "nouveau",
-        pronunciation: "नुवो",
-        meaning: "new",
-        usage: "Un nouveau départ (A new start)",
-        forms: "Masculine adjective; nouvelle (fem.)",
-        etymology: "Latin novus"
-      },
-      {
-        word: "oeil",
-        pronunciation: "ऊय",
-        meaning: "eye",
-        usage: "Un oeil bleu (A blue eye)",
-        forms: "Masculine noun; yeux (plural)",
-        etymology: "Latin oculus"
-      },
-      {
-        word: "oh",
-        pronunciation: "ओ",
-        meaning: "oh",
-        usage: "Oh là là! (Oh my!)",
-        forms: "Interjection",
-        etymology: "Natural exclamation"
-      },
-      {
-        word: "on",
-        pronunciation: "ऑन",
-        meaning: "we, one",
-        usage: "On y va! (Let's go!)",
-        forms: "Indefinite pronoun",
-        etymology: "Latin homo"
-      },
-      {
-        word: "ont",
-        pronunciation: "ऑन",
-        meaning: "have (3rd pl.)",
-        usage: "Ils ont raison (They are right)",
-        forms: "3rd person plural of avoir",
-        etymology: "Latin habent"
-      },
-      {
-        word: "ordres",
-        pronunciation: "ऑर्द्र",
-        meaning: "orders",
-        usage: "Donner des ordres (Give orders)",
-        forms: "Plural of ordre",
-        etymology: "Latin ordo"
-      },
-      {
-        word: "ordures",
-        pronunciation: "ऑर्दुर",
-        meaning: "garbage",
-        usage: "Sortir les ordures (Take out garbage)",
-        forms: "Plural of ordure",
-        etymology: "Latin horridus"
-      },
-      {
-        word: "où",
-        pronunciation: "ऊ",
-        meaning: "where",
-        usage: "Où vas-tu? (Where are you going?)",
-        forms: "Interrogative adverb",
-        etymology: "Latin ubi"
-      },
-      {
-        word: "par",
-        pronunciation: "पार",
-        meaning: "by, through",
-        usage: "Par ici (This way)",
-        forms: "Preposition",
-        etymology: "Latin per"
-      },
-      {
-        word: "parfait",
-        pronunciation: "परफे",
-        meaning: "perfect",
-        usage: "C'est parfait! (It's perfect!)",
-        forms: "Adjective; also noun (parfait)",
-        etymology: "Latin perfectus"
-      },
-      {
-        word: "parfois",
-        pronunciation: "परफोआ",
-        meaning: "sometimes",
-        usage: "Parfois il pleut (Sometimes it rains)",
-        forms: "Adverb",
-        etymology: "Latin per + vice"
-      },
-      {
-        word: "part",
-        pronunciation: "पार",
-        meaning: "part, share",
-        usage: "Une part de gâteau (A piece of cake)",
-        forms: "Feminine noun; partager (to share)",
-        etymology: "Latin pars"
-      },
-      {
-        word: "partie",
-        pronunciation: "पार्ती",
-        meaning: "part, game",
-        usage: "Une partie de tennis (A tennis match)",
-        forms: "Feminine noun; partir (to leave)",
-        etymology: "Latin pars"
-      },
-      {
-        word: "partir",
-        pronunciation: "पार्तीर",
-        meaning: "to leave",
-        usage: "Je dois partir (I must leave)",
-        forms: "Infinitive; départ (departure)",
-        etymology: "Latin partire"
-      },
-      {
-        word: "pas",
-        pronunciation: "पा",
-        meaning: "not, step",
-        usage: "Je ne sais pas (I don't know)",
-        forms: "Negative particle; also noun (step)",
-        etymology: "Latin passus"
-      },
-      {
-        word: "passés",
-        pronunciation: "पासे",
-        meaning: "past, passed",
-        usage: "Les jours passés (The past days)",
-        forms: "Past participle of passer",
-        etymology: "Latin passus"
-      },
-      {
-        word: "patapouf",
-        pronunciation: "पतापूफ",
-        meaning: "plump, chubby",
-        usage: "Un bébé patapouf (A chubby baby)",
-        forms: "Informal adjective/noun",
-        etymology: "Onomatopoeia"
-      },
-      {
-        word: "patrick",
-        pronunciation: "पैट्रिक",
-        meaning: "Patrick",
-        usage: "Patrick Swayze",
-        forms: "Proper noun",
-        etymology: "Latin Patricius"
-      },
-      {
-        word: "pâte",
-        pronunciation: "पात",
-        meaning: "dough, paste",
-        usage: "La pâte à pain (Bread dough)",
-        forms: "Feminine noun; pâtisserie (pastry)",
-        etymology: "Latin pasta"
-      },
-      {
-        word: "pâté",
-        pronunciation: "पाते",
-        meaning: "pâté",
-        usage: "Du pâté de foie (Liver pâté)",
-        forms: "Masculine noun",
-        etymology: "Latin pasta"
-      },
-      {
-        word: "patouille",
-        pronunciation: "पतूय",
-        meaning: "mess around",
-        usage: "Il patouille dans l'eau (Messing around in water)",
-        forms: "3rd person singular of patouiller",
-        etymology: "Onomatopoeia"
-      },
-      {
-        word: "pause",
-        pronunciation: "पॉज़",
-        meaning: "break, pause",
-        usage: "Une pause café (A coffee break)",
-        forms: "Feminine noun; pauser (to pause)",
-        etymology: "Latin pausa"
-      },
-      {
-        word: "peut",
-        pronunciation: "पू",
-        meaning: "can",
-        usage: "Il peut venir (He can come)",
-        forms: "3rd person singular of pouvoir",
-        etymology: "Latin potest"
-      },
-      {
-        word: "peux",
-        pronunciation: "पू",
-        meaning: "can",
-        usage: "Tu peux m'aider? (Can you help?)",
-        forms: "1st/2nd person singular of pouvoir",
-        etymology: "Latin possum"
-      },
-      {
-        word: "photo",
-        pronunciation: "फोतो",
-        meaning: "photo",
-        usage: "Une belle photo (A beautiful photo)",
-        forms: "Feminine noun; photographe (photographer)",
-        etymology: "Greek photos"
-      },
-      {
-        word: "photos",
-        pronunciation: "फोतो",
-        meaning: "photos",
-        usage: "Prendre des photos (Take photos)",
-        forms: "Plural of photo",
-        etymology: "Greek photos"
-      },
-      {
-        word: "pigère",
-        pronunciation: "पिझे",
-        meaning: "understand",
-        usage: "Tu piges? (Do you get it?)",
-        forms: "Slang infinitive",
-        etymology: "Unknown origin"
-      },
-      {
-        word: "pimentée",
-        pronunciation: "पिमांते",
-        meaning: "spicy",
-        usage: "Une sauce pimentée (A spicy sauce)",
-        forms: "Feminine past participle of pimenter",
-        etymology: "From piment (pepper)"
-      },
-      {
-        word: "pitié",
-        pronunciation: "पितिए",
-        meaning: "pity",
-        usage: "Avoir pitié (To have pity)",
-        forms: "Feminine noun",
-        etymology: "Latin pietas"
-      },
-      {
-        word: "planifier",
-        pronunciation: "प्लानिफिए",
-        meaning: "plan",
-        usage: "Planifier un voyage (Plan a trip)",
-        forms: "Infinitive; planification (planning)",
-        etymology: "Latin planus"
-      },
-      {
-        word: "plaisir",
-        pronunciation: "प्लेज़ीर",
-        meaning: "pleasure",
-        usage: "Avec plaisir (With pleasure)",
-        forms: "Masculine noun; plaire (to please)",
-        etymology: "Latin placere"
-      },
-      {
-        word: "planète",
-        pronunciation: "प्लानेत",
-        meaning: "planet",
-        usage: "Notre planète (Our planet)",
-        forms: "Feminine noun; planétaire (planetary)",
-        etymology: "Greek planetes"
-      },
-      {
-        word: "plus",
-        pronunciation: "प्लु",
-        meaning: "more, plus",
-        usage: "Plus grand (Bigger)",
-        forms: "Adverb; also mathematical plus",
-        etymology: "Latin plus"
-      },
-      {
-        word: "plusieurs",
-        pronunciation: "प्लुसिऊर",
-        meaning: "several",
-        usage: "Plusieurs fois (Several times)",
-        forms: "Adjective/pronoun",
-        etymology: "Latin plures"
-      },
-      {
-        word: "poissons",
-        pronunciation: "पोआसों",
-        meaning: "fish (plural)",
-        usage: "Des poissons colorés (Colorful fish)",
-        forms: "Plural of poisson",
-        etymology: "Latin piscis"
-      },
-      {
-        word: "pores",
-        pronunciation: "पॉर",
-        meaning: "pores",
-        usage: "Les pores de la peau (Skin pores)",
-        forms: "Plural of pore",
-        etymology: "Greek poros"
-      },
-      {
-        word: "possible",
-        pronunciation: "पॉसिब्ल",
-        meaning: "possible",
-        usage: "C'est possible (It's possible)",
-        forms: "Adjective; possibilité (possibility)",
-        etymology: "Latin possibilis"
-      },
-      {
-        word: "poubelle",
-        pronunciation: "पूबेल",
-        meaning: "trash can",
-        usage: "Vider la poubelle (Empty the trash can)",
-        forms: "Feminine noun",
-        etymology: "From Eugène Poubelle"
-      },
-      {
-        word: "pour",
-        pronunciation: "पूर",
-        meaning: "for",
-        usage: "Pour toi (For you)",
-        forms: "Preposition",
-        etymology: "Latin pro"
-      },
-      {
-        word: "pourtant",
-        pronunciation: "पूर्तां",
-        meaning: "however",
-        usage: "Pourtant c'est vrai (However it's true)",
-        forms: "Adverb",
-        etymology: "Latin pro + tantum"
-      },
-      {
-        word: "pousse",
-        pronunciation: "पूस",
-        meaning: "push, grow",
-        usage: "Ça pousse vite (It grows fast)",
-        forms: "3rd person singular of pousser",
-        etymology: "Latin pulsare"
-      },
-      {
-        word: "pouvoir",
-        pronunciation: "पूवोआर",
-        meaning: "power, to be able",
-        usage: "Le pouvoir politique (Political power)",
-        forms: "Masculine noun; also infinitive",
-        etymology: "Latin potere"
-      },
-      {
-        word: "prendre",
-        pronunciation: "प्रांद्र",
-        meaning: "to take",
-        usage: "Prendre le bus (Take the bus)",
-        forms: "Infinitive; pris (taken)",
-        etymology: "Latin prendere"
-      },
-      {
-        word: "prenez",
-        pronunciation: "प्रने",
-        meaning: "take",
-        usage: "Prenez soin de vous (Take care of yourself)",
-        forms: "2nd person plural imperative of prendre",
-        etymology: "Latin prendite"
-      },
-      {
-        word: "prêt",
-        pronunciation: "प्रे",
-        meaning: "ready",
-        usage: "Je suis prêt (I'm ready)",
-        forms: "Adjective; also noun (loan)",
-        etymology: "Latin praestus"
-      },
-      {
-        word: "preuve",
-        pronunciation: "प्रूव",
-        meaning: "evidence, proof",
-        usage: "Des preuves solides (Solid evidence)",
-        forms: "Plural of preuve",
-        etymology: "Latin proba"
-      },
-      {
-        word: "problème",
-        pronunciation: "प्रॉब्लेम",
-        meaning: "problem",
-        usage: "Un gros problème (A big problem)",
-        forms: "Masculine noun; problématique (problematic)",
-        etymology: "Greek problema"
-      },
-      {
-        word: "problemo",
-        pronunciation: "प्रॉब्लेमो",
-        meaning: "problem (slang)",
-        usage: "Pas de problemo! (No problem!)",
-        forms: "Slang form of problème",
-        etymology: "Spanish/Italian influence"
-      },
-      {
-        word: "prochain",
-        pronunciation: "प्रोशिं",
-        meaning: "next",
-        usage: "La semaine prochaine (Next week)",
-        forms: "Adjective; proche (close)",
-        etymology: "Latin proximus"
-      },
-      {
-        word: "propre",
-        pronunciation: "प्रॉप्र",
-        meaning: "own, clean",
-        usage: "Ma propre maison (My own house)",
-        forms: "Adjective; propriété (property)",
-        etymology: "Latin proprius"
-      },
-      {
-        word: "propose",
-        pronunciation: "प्रपोज़",
-        meaning: "propose",
-        usage: "Je propose une solution (I propose a solution)",
-        forms: "1st person singular of proposer",
-        etymology: "Latin proponere"
-      },
-      {
-        word: "qu'est",
-        pronunciation: "केस्त",
-        meaning: "what is",
-        usage: "Qu'est-ce que c'est? (What is it?)",
-        forms: "Contraction of que + est",
-        etymology: "Latin quid est"
-      },
-      {
-        word: "qu'on",
-        pronunciation: "कों",
-        meaning: "that we",
-        usage: "Il faut qu'on parte (We must leave)",
-        forms: "Contraction of que + on",
-        etymology: "Latin quod + homo"
-      },
-      {
-        word: "quand",
-        pronunciation: "कां",
-        meaning: "when",
-        usage: "Quand arrives-tu? (When do you arrive?)",
-        forms: "Interrogative conjunction",
-        etymology: "Latin quando"
-      },
-      {
-        word: "que",
-        pronunciation: "के",
-        meaning: "that, what",
-        usage: "Je sais que tu viens (I know you're coming)",
-        forms: "Conjunction/pronoun",
-        etymology: "Latin quod"
-      },
-      {
-        word: "quel",
-        pronunciation: "केल",
-        meaning: "what, which",
-        usage: "Quel âge as-tu? (How old are you?)",
-        forms: "Interrogative adjective",
-        etymology: "Latin qualis"
-      },
-      {
-        word: "quelqu'un",
-        pronunciation: "केल्कऊं",
-        meaning: "someone",
-        usage: "Quelqu'un arrive (Someone is coming)",
-        forms: "Indefinite pronoun",
-        etymology: "From quel + qu' + un"
-      },
-      {
-        word: "quelque",
-        pronunciation: "केल्क",
-        meaning: "some",
-        usage: "Quelque chose (Something)",
-        forms: "Adjective/adverb",
-        etymology: "Latin qualisque"
-      },
-      {
-        word: "qui",
-        pronunciation: "की",
-        meaning: "who, which",
-        usage: "Qui est là? (Who is there?)",
-        forms: "Interrogative/relative pronoun",
-        etymology: "Latin qui"
-      },
-      {
-        word: "quoi",
-        pronunciation: "कोआ",
-        meaning: "what",
-        usage: "Tu fais quoi? (What are you doing?)",
-        forms: "Interrogative pronoun",
-        etymology: "Latin quid"
-      },
-      {
-        word: "rac",
-        pronunciation: "राक",
-        meaning: "root",
-        usage: "La racine d'un mot (Root of a word)",
-        forms: "Feminine noun",
-        etymology: "Latin radix"
-      },
-      {
-        word: "racle",
-        pronunciation: "रास्कल",
-        meaning: "rascal",
-        usage: "Petit rascal! (Little rascal!)",
-        forms: "Anglicism",
-        etymology: "English 'rascal'"
-      },
-      {
-        word: "rascales",
-        pronunciation: "रास्कल",
-        meaning: "rascals",
-        usage: "Ces petits rascales (These little rascals)",
-        forms: "Plural of rascal",
-        etymology: "English 'rascals'"
-      },
-      {
-        word: "record",
-        pronunciation: "रेकॉर्द",
-        meaning: "record",
-        usage: "Battre un record (Break a record)",
-        forms: "Masculine noun",
-        etymology: "English 'record'"
-      },
-      {
-        word: "records",
-        pronunciation: "रेकॉर्द्स",
-        meaning: "records",
-        usage: "Établir des records (Set records)",
-        forms: "Plural of record",
-        etymology: "English 'records'"
-      },
-      {
-        word: "regarde",
-        pronunciation: "रगार्दे",
-        meaning: "look",
-        usage: "Regarde-moi! (Look at me!)",
-        forms: "2nd person singular of regarder",
-        etymology: "Germanic warda"
-      },
-      {
-        word: "regarder",
-        pronunciation: "रगार्देर",
-        meaning: "to look",
-        usage: "Regarder la télé (Watch TV)",
-        forms: "Infinitive; regard (look)",
-        etymology: "Germanic warda"
-      },
-      {
-        word: "rejoindre",
-        pronunciation: "रझोआंद्र",
-        meaning: "to join",
-        usage: "Rejoindre l'équipe (Join the team)",
-        forms: "Infinitive; rejoint (joined)",
-        etymology: "Latin re + jungere"
-      },
-      {
-        word: "remets",
-        pronunciation: "रमे",
-        meaning: "put back",
-        usage: "Remets ça en place (Put that back)",
-        forms: "2nd person singular of remettre",
-        etymology: "Latin re + mittere"
-      },
-      {
-        word: "rentrer",
-        pronunciation: "रांत्रे",
-        meaning: "to go home",
-        usage: "Je dois rentrer (I must go home)",
-        forms: "Infinitive; rentrée (return)",
-        etymology: "Latin re + intrare"
-      },
-      {
-        word: "réplique",
-        pronunciation: "रेप्लिक",
-        meaning: "reply",
-        usage: "Une réplique intelligente (An intelligent reply)",
-        forms: "Feminine noun; répliquer (to reply)",
-        etymology: "Latin replicare"
-      },
-      {
-        word: "réussi",
-        pronunciation: "रेउसी",
-        meaning: "successful",
-        usage: "Un projet réussi (A successful project)",
-        forms: "Past participle of réussir",
-        etymology: "From re + ussir"
-      },
-      {
-        word: "reviens",
-        pronunciation: "रविं",
-        meaning: "come back",
-        usage: "Reviens vite! (Come back quickly!)",
-        forms: "2nd person singular of revenir",
-        etymology: "Latin re + venire"
-      },
-      {
-        word: "rien",
-        pronunciation: "रिं",
-        meaning: "nothing",
-        usage: "Rien du tout (Nothing at all)",
-        forms: "Pronoun; ne...rien (nothing)",
-        etymology: "Latin rem"
-      },
-      {
-        word: "rigolez",
-        pronunciation: "रिगोले",
-        meaning: "laugh",
-        usage: "Ne rigolez pas! (Don't laugh!)",
-        forms: "2nd person plural of rigoler",
-        etymology: "Unknown origin"
-      },
-      {
-        word: "robots",
-        pronunciation: "रोबो",
-        meaning: "robots",
-        usage: "Des robots intelligents (Intelligent robots)",
-        forms: "Plural of robot",
-        etymology: "Czech robota"
-      },
-      {
-        word: "s'appelle",
-        pronunciation: "सापेल",
-        meaning: "is called",
-        usage: "Il s'appelle Pierre (His name is Pierre)",
-        forms: "3rd person singular of s'appeler",
-        etymology: "Latin appellare"
-      },
-      {
-        word: "s'en",
-        pronunciation: "सां",
-        meaning: "of it/them",
-        usage: "Il s'en va (He is leaving)",
-        forms: "Contraction of se + en",
-        etymology: "Latin se + inde"
-      },
-      {
-        word: "sable",
-        pronunciation: "साब्ल",
-        meaning: "sand",
-        usage: "Du sable fin (Fine sand)",
-        forms: "Masculine noun; sableux (sandy)",
-        etymology: "Latin sabulum"
-      },
-      {
-        word: "sandy",
-        pronunciation: "सैंडी",
-        meaning: "Sandy",
-        usage: "Sandy Beach",
-        forms: "English name",
-        etymology: "English 'sandy'"
-      },
-      {
-        word: "sans",
-        pronunciation: "सां",
-        meaning: "without",
-        usage: "Sans problème (No problem)",
-        forms: "Preposition",
-        etymology: "Latin sine"
-      },
-      {
-        word: "sauce",
-        pronunciation: "सॉस",
-        meaning: "sauce",
-        usage: "Une sauce délicieuse (Delicious sauce)",
-        forms: "Feminine noun; photographe (photographer)",
-        etymology: "Latin salsa"
-      },
-      {
-        word: "sauver",
-        pronunciation: "सॉवे",
-        meaning: "to save",
-        usage: "Sauver des vies (Save lives)",
-        forms: "Infinitive; sauveur (savior)",
-        etymology: "Latin salvare"
-      },
-      {
-        word: "saute",
-        pronunciation: "सॉते",
-        meaning: "jump",
-        usage: "Saute la corde! (Jump rope!)",
-        forms: "2nd person singular of sauter",
-        etymology: "Latin saltare"
-      },
-      {
-        word: "saveur",
-        pronunciation: "सावूर",
-        meaning: "flavor",
-        usage: "Une saveur unique (A unique flavor)",
-        forms: "Feminine noun; savoureux (flavorful)",
-        etymology: "Latin sapor"
-      },
-      {
-        word: "savais",
-        pronunciation: "सावे",
-        meaning: "knew",
-        usage: "Tu savais ça? (Did you know that?)",
-        forms: "2nd person singular imperfect of savoir",
-        etymology: "Latin sapere"
-      },
-      {
-        word: "se",
-        pronunciation: "से",
-        meaning: "oneself",
-        usage: "Il se lave (He washes himself)",
-        forms: "Reflexive pronoun",
-        etymology: "Latin se"
-      },
-      {
-        word: "sec",
-        pronunciation: "सेक",
-        meaning: "dry",
-        usage: "Du pain sec (Dry bread)",
-        forms: "Masculine adjective; séche (fem.)",
-        etymology: "Latin siccus"
-      },
-      {
-        word: "secondaire",
-        pronunciation: "सकांदेर",
-        meaning: "secondary",
-        usage: "École secondaire (High school)",
-        forms: "Adjective; second (second)",
-        etymology: "Latin secundarius"
-      },
-      {
-        word: "secondes",
-        pronunciation: "सकांद",
-        meaning: "seconds",
-        usage: "Quelques secondes (A few seconds)",
-        forms: "Plural of seconde",
-        etymology: "Latin secunda"
-      },
-      {
-        word: "semble",
-        pronunciation: "सांब्ल",
-        meaning: "seems",
-        usage: "Il semble fatigué (He seems tired)",
-        forms: "3rd person singular of sembler",
-        etymology: "Latin simulare"
-      },
-      {
-        word: "sens",
-        pronunciation: "सां",
-        meaning: "sense, direction",
-        usage: "Le bon sens (Common sense)",
-        forms: "Masculine noun; sensé (sensible)",
-        etymology: "Latin sensus"
-      },
-      {
-        word: "sent",
-        pronunciation: "सां",
-        meaning: "feels, smells",
-        usage: "Ça sent bon (It smells good)",
-        forms: "3rd person singular of sentir",
-        etymology: "Latin sentire"
-      },
-      {
-        word: "serpents",
-        pronunciation: "सेर्पां",
-        meaning: "snakes",
-        usage: "Des serpents venimeux (Venomous snakes)",
-        forms: "Plural of serpent",
-        etymology: "Latin serpens"
-      },
-      {
-        word: "si",
-        pronunciation: "सी",
-        meaning: "if, so",
-        usage: "Si tu veux (If you want)",
-        forms: "Conjunction/adverb",
-        etymology: "Latin si"
-      },
-      {
-        word: "signé",
-        pronunciation: "सिन्ये",
-        meaning: "signed",
-        usage: "Contrat signé (Signed contract)",
-        forms: "Past participle of signer",
-        etymology: "Latin signare"
-      },
-      {
-        word: "simple",
-        pronunciation: "सिम्प्ल",
-        meaning: "simple",
-        usage: "C'est simple (It's simple)",
-        forms: "Adjective; simplicité (simplicity)",
-        etymology: "Latin simplex"
-      },
-      {
-        word: "six",
-        pronunciation: "सिस",
-        meaning: "six",
-        usage: "Six pommes (Six apples)",
-        forms: "Number; sixième (sixth)",
-        etymology: "Latin sex"
-      },
-      {
-        word: "soixante",
-        pronunciation: "सोआसांत",
-        meaning: "sixty",
-        usage: "Soixante ans (Sixty years)",
-        forms: "Number; soixantaine (about sixty)",
-        etymology: "Latin sexaginta"
-      },
-      {
-        word: "solidaire",
-        pronunciation: "सॉलिदेर",
-        meaning: "solidary",
-        usage: "Soutien solidaire (Supportive gesture)",
-        forms: "Adjective; solidarité (solidarity)",
-        etymology: "Latin solidus"
-      },
-      {
-        word: "sommet",
-        pronunciation: "सोमे",
-        meaning: "summit, top",
-        usage: "Sommet de la montagne (Mountain summit)",
-        forms: "Masculine noun",
-        etymology: "Latin summum"
-      },
-      {
-        word: "sortir",
-        pronunciation: "सॉर्तीर",
-        meaning: "to go out",
-        usage: "Sortir ce soir (Go out tonight)",
-        forms: "Infinitive; sortie (exit)",
-        etymology: "Latin surgere"
-      },
-      {
-        word: "soupe",
-        pronunciation: "सूप",
-        meaning: "soup",
-        usage: "Une soupe chaude (A hot soup)",
-        forms: "Feminine noun",
-        etymology: "Germanic suppa"
-      },
-      {
-        word: "spécialiste",
-        pronunciation: "स्पेसिअलिस्त",
-        meaning: "specialist",
-        usage: "Spécialiste médical (Medical specialist)",
-        forms: "Noun; spécial (special)",
-        etymology: "Latin specialis"
-      },
-      {
-        word: "sport",
-        pronunciation: "स्पॉर्ट",
-        meaning: "sport",
-        usage: "Faire du sport (Do sports)",
-        forms: "Masculine noun; sportif (athletic)",
-        etymology: "English 'sport'"
-      },
-      {
-        word: "sports",
-        pronunciation: "स्पॉर्ट्स",
-        meaning: "sports",
-        usage: "Sports d'hiver (Winter sports)",
-        forms: "Plural of sport",
-        etymology: "English 'sports'"
-      },
-      {
-        word: "succès",
-        pronunciation: "सुक्से",
-        meaning: "success",
-        usage: "Grand succès (Great success)",
-        forms: "Masculine noun",
-        etymology: "Latin successus"
-      },
-      {
-        word: "super",
-        pronunciation: "सुपेर",
-        meaning: "super, great",
-        usage: "C'est super! (That's great!)",
-        forms: "Adverb/adjective",
-        etymology: "Latin super"
-      },
-      {
-        word: "sur",
-        pronunciation: "सुर",
-        meaning: "on, about",
-        usage: "Sur la table (On the table)",
-        forms: "Preposition",
-        etymology: "Latin super"
-      },
-      {
-        word: "sûr",
-        pronunciation: "सुर",
-        meaning: "sure",
-        usage: "J'en suis sûr (I'm sure)",
-        forms: "Adverb; sûrement (surely)",
-        etymology: "Latin securus"
-      },
-      {
-        word: "survivé",
-        pronunciation: "सुर्विवे",
-        meaning: "survived",
-        usage: "Il a survécu (He survived)",
-        forms: "Past participle of survivre",
-        etymology: "Latin super + vivere"
-      },
-      {
-        word: "t'as",
-        pronunciation: "ता",
-        meaning: "you have",
-        usage: "T'as raison (You're right)",
-        forms: "Contraction of tu as",
-        etymology: "Latin tu habes"
-      },
-      {
-        word: "t'es",
-        pronunciation: "ते",
-        meaning: "you are",
-        usage: "T'es fou! (You're crazy!)",
-        forms: "Contraction of tu es",
-        etymology: "Latin tu es"
-      },
-      {
-        word: "tâche",
-        pronunciation: "ताश",
-        meaning: "task, stain",
-        usage: "Mes tâches quotidiennes (Daily tasks)",
-        forms: "Feminine noun",
-        etymology: "Germanic takka"
-      },
-      {
-        word: "tap",
-        pronunciation: "तप",
-        meaning: "tap",
-        usage: "Un petit tap (A small tap)",
-        forms: "Anglicism",
-        etymology: "English 'tap'"
-      },
-      {
-        word: "te",
-        pronunciation: "ते",
-        meaning: "you",
-        usage: "Je te vois (I see you)",
-        forms: "Object pronoun",
-        etymology: "Latin te"
-      },
-      {
-        word: "temps",
-        pronunciation: "तां",
-        meaning: "time, weather",
-        usage: "Le temps passe (Time passes)",
-        forms: "Masculine noun; temporel (temporal)",
-        etymology: "Latin tempus"
-      },
-      {
-        word: "tenez",
-        pronunciation: "तने",
-        meaning: "hold",
-        usage: "Tenez bon! (Hold on!)",
-        forms: "2nd person plural of tenir",
-        etymology: "Latin tenere"
-      },
-      {
-        word: "tête",
-        pronunciation: "तेत",
-        meaning: "head",
-        usage: "Ma tête (My head)",
-        forms: "Feminine noun; têtu (stubborn)",
-        etymology: "Latin testa"
-      },
-      {
-        word: "tient",
-        pronunciation: "तिं",
-        meaning: "holds",
-        usage: "Il tient le livre (He holds the book)",
-        forms: "3rd person singular of tenir",
-        etymology: "Latin tenet"
-      },
-      {
-        word: "ton",
-        pronunciation: "तॉन",
-        meaning: "your",
-        usage: "Ton avis (Your opinion)",
-        forms: "Plural of tonne",
-        etymology: "English 'ton'"
-      },
-      {
-        word: "totalement",
-        pronunciation: "तोतालमां",
-        meaning: "totally",
-        usage: "Totalement d'accord (Totally agree)",
-        forms: "Adverb; total (total)",
-        etymology: "Latin totalis"
-      },
-      {
-        word: "toujours",
-        pronunciation: "तुझुर",
-        meaning: "always",
-        usage: "Toujours en retard (Always late)",
-        forms: "Adverb",
-        etymology: "Latin tota + dies"
-      },
-      {
-        word: "tour",
-        pronunciation: "तूर",
-        meaning: "turn, tower",
-        usage: "À ton tour (Your turn)",
-        forms: "Masculine/feminine noun",
-        etymology: "Latin turris"
-      },
-      {
-        word: "tout",
-        pronunciation: "तू",
-        meaning: "all, everything",
-        usage: "Tout le monde (Everyone)",
-        forms: "Adjective/pronoun; toute, tous, toutes",
-        etymology: "Latin totus"
-      },
-      {
-        word: "toute",
-        pronunciation: "तूत",
-        meaning: "all (fem.)",
-        usage: "Toute la journée (All day)",
-        forms: "Feminine form of tout",
-        etymology: "Latin tota"
-      },
-      {
-        word: "tous",
-        pronunciation: "तूस",
-        meaning: "all (masc. pl.)",
-        usage: "Tous les jours (Every day)",
-        forms: "Plural of tout",
-        etymology: "Latin totus"
-      },
-      {
-        word: "truc",
-        pronunciation: "त्रुक",
-        meaning: "thing, trick",
-        usage: "Un petit truc (A little trick)",
-        forms: "Masculine noun, informal",
-        etymology: "Unknown origin"
-      },
-      {
-        word: "trucs",
-        pronunciation: "त्रुक",
-        meaning: "things",
-        usage: "Mes trucs (My things)",
-        forms: "Plural of truc",
-        etymology: "Unknown origin"
-      },
-      {
-        word: "tuy",
-        pronunciation: "तु",
-        meaning: "you",
-        usage: "Je te vois (I see you)",
-        forms: "Subject pronoun",
-        etymology: "Latin tu"
-      },
-      {
-        word: "un",
-        pronunciation: "अं",
-        meaning: "a, one",
-        usage: "Un chat (A cat)",
-        forms: "Masculine indefinite article/number",
-        etymology: "Latin unus"
-      },
-      {
-        word: "une",
-        pronunciation: "उन",
-        meaning: "a, one (fem.)",
-        usage: "Une maison (A house)",
-        forms: "Feminine indefinite article/number",
-        etymology: "Latin una"
-      },
-      {
-        word: "vague",
-        pronunciation: "वा",
-        meaning: "goes",
-        usage: "Il va bien (He is fine)",
-        forms: "3rd person singular of aller",
-        etymology: "Latin vadit"
-      },
-      {
-        word: "vais",
-        pronunciation: "वे",
-        meaning: "go",
-        usage: "Je vais partir (I am going to leave)",
-        forms: "1st person singular of aller",
-        etymology: "Latin vado"
-      },
-      {
-        word: "ventre",
-        pronunciation: "वांत्र",
-        meaning: "belly",
-        usage: "Mal au ventre (Stomachache)",
-        forms: "Masculine noun",
-        etymology: "Latin venter"
-      },
-      {
-        word: "veux",
-        pronunciation: "वू",
-        meaning: "want",
-        usage: "Je veux partir (I want to leave)",
-        forms: "1st person singular of vouloir",
-        etymology: "Latin volo"
-      },
-      {
-        word: "vieille",
-        pronunciation: "विएय",
-        meaning: "old (fem.)",
-        usage: "Une vieille dame (An old lady)",
-        forms: "Feminine form of vieux",
-        etymology: "Latin vetula"
-      },
-      {
-        word: "vite",
-        pronunciation: "वीत",
-        meaning: "fast, quickly",
-        usage: "Cours vite (Run fast)",
-        forms: "Adverb; vitesse (speed)",
-        etymology: "Latin velox"
-      },
-      {
-        word: "vivant",
-        pronunciation: "विवां",
-        meaning: "alive",
-        usage: "Un être vivant (A living being)",
-        forms: "Present participle of vivre; adjective",
-        etymology: "Latin vivens"
-      },
-      {
-        word: "vivante",
-        pronunciation: "विवांत",
-        meaning: "alive (fem.)",
-        usage: "Une tradition vivante (A living tradition)",
-        forms: "Feminine form of vivant",
-        etymology: "Latin vivens"
-      },
-      {
-        word: "voir",
-        pronunciation: "वोआर",
-        meaning: "to see",
-        usage: "J'ai vu le film (I saw the movie)",
-        forms: "Infinitive; vu (seen)",
-        etymology: "Latin videre"
-      },
-      {
-        word: "voilà",
-        pronunciation: "वोआला",
-        meaning: "there is/are",
-        usage: "Voilà mon ami! (There’s my friend!)",
-        forms: "Adverb; voici (here is)",
-        etymology: "From vois + là"
-      },
-      {
-        word: "votre",
-        pronunciation: "वोत्र",
-        meaning: "your",
-        usage: "Votre maison (Your house)",
-        forms: "Possessive adjective formal",
-        etymology: "Latin vester"
-      },
-      {
-        word: "vous",
-        pronunciation: "वू",
-        meaning: "you (formal/plural)",
-        usage: "Comment allez-vous? (How are you?)",
-        forms: "Subject/object pronoun",
-        etymology: "Latin vos"
-      },
-      {
-        word: "voulez",
-        pronunciation: "वूले",
-        meaning: "want",
-        usage: "Que voulez-vous? (What do you want?)",
-        forms: "2nd person plural of vouloir",
-        etymology: "Latin vultis"
-      },
-      {
-        word: "vu",
-        pronunciation: "वु",
-        meaning: "seen",
-        usage: "J'ai vu le film (I saw the movie)",
-        forms: "Past participle of voir",
-        etymology: "Latin visus"
-      }
+    "word": "adorer",
+    "pronunciation": "आदोरे",
+    "meaning": "to love / to adore",
+    "usage": "Je adore le chocolat. (झे आदोर ले शोकोला) — I love chocolate.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'adorare'"
+  },
+  {
+    "word": "adorent",
+    "pronunciation": "आदोरां",
+    "meaning": "they love / they adore",
+    "usage": "Ils adorent jouer. (इल आदोरां झुए) — They love to play.",
+    "forms": "Verb (3rd person plural present)",
+    "etymology": "Latin 'adorare'"
+  },
+  {
+    "word": "aide",
+    "pronunciation": "एद",
+    "meaning": "help / assistance",
+    "usage": "J'ai besoin d'aide. (झे बेज़ोएं देद) — I need help.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'adjuta'"
+  },
+  {
+    "word": "aider",
+    "pronunciation": "एदे",
+    "meaning": "to help",
+    "usage": "Je veux aider maman. (झे वे एदे मामां) — I want to help mama.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'adjutare'"
+  },
+  {
+    "word": "aime",
+    "pronunciation": "एम",
+    "meaning": "love / like",
+    "usage": "J'aime les animaux. (झेम ले अनिमो) — I like animals.",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'amare'"
+  },
+  {
+    "word": "alors",
+    "pronunciation": "आलोर",
+    "meaning": "then / so",
+    "usage": "Alors, qu'est-ce qu'on fait? (आलोर केसकों फे) — So, what do we do?",
+    "forms": "Adverb",
+    "etymology": "Latin 'ad illam horam'"
+  },
+  {
+    "word": "aller",
+    "pronunciation": "आले",
+    "meaning": "to go",
+    "usage": "Je vais aller au parc. (झे वे आले ओ पार्क) — I'm going to go to the park.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'ambulare'"
+  },
+  {
+    "word": "allez",
+    "pronunciation": "आले",
+    "meaning": "go (you go)",
+    "usage": "Vous allez à l'école. (वु आले आ लेकोल) — You go to school.",
+    "forms": "Verb (2nd person plural present)",
+    "etymology": "Latin 'ambulare'"
+  },
+  {
+    "word": "allez-y",
+    "pronunciation": "आले-इ",
+    "meaning": "go ahead / go on",
+    "usage": "Allez-y, jouez! (आले-इ, झुए) — Go ahead, play!",
+    "forms": "Imperative expression",
+    "etymology": "Latin 'ambulare' + 'ibi'"
+  },
+  {
+    "word": "allons",
+    "pronunciation": "आलों",
+    "meaning": "let's go",
+    "usage": "Allons jouer dehors. (आलों झुए देऑर) — Let's go play outside.",
+    "forms": "Verb (1st person plural present)",
+    "etymology": "Latin 'ambulare'"
+  },
+  {
+    "word": "amusent",
+    "pronunciation": "आम्युज़ां",
+    "meaning": "they amuse / they have fun",
+    "usage": "Les enfants s'amusent. (ले आंफां सामुज़ां) — The children are having fun.",
+    "forms": "Verb (3rd person plural present)",
+    "etymology": "Latin 'amusare'"
+  },
+  {
+    "word": "animal",
+    "pronunciation": "अनिमाल",
+    "meaning": "animal",
+    "usage": "J'aime cet animal. (झेम से अनिमाल) — I like this animal.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'animal'"
+  },
+  {
+    "word": "anniversaire",
+    "pronunciation": "अनिवेर्सेर",
+    "meaning": "birthday / anniversary",
+    "usage": "C'est mon anniversaire. (से मों अनिवेर्सेर) — It's my birthday.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'anniversarius'"
+  },
+  {
+    "word": "arrêté",
+    "pronunciation": "अरेते",
+    "meaning": "stopped",
+    "usage": "Il a arrêté de courir. (इल आ अरेते दे कुरिर) — He stopped running.",
+    "forms": "Past participle",
+    "etymology": "Latin 'arrestare'"
+  },
+  {
+    "word": "assez",
+    "pronunciation": "आसे",
+    "meaning": "enough",
+    "usage": "J'ai assez mangé. (झे आसे मांझे) — I've eaten enough.",
+    "forms": "Adverb",
+    "etymology": "Latin 'ad satis'"
+  },
+  {
+    "word": "aujourd'hui",
+    "pronunciation": "ओझुर्दुई",
+    "meaning": "today",
+    "usage": "Aujourd'hui, je joue. (ओझुर्दुई, झे झू) — Today, I play.",
+    "forms": "Adverb",
+    "etymology": "Latin 'hoc die'"
+  },
+  {
+    "word": "aussi",
+    "pronunciation": "ओसी",
+    "meaning": "also / too",
+    "usage": "George aime aussi sauter. (झॉर्ज एम ओसी सोते) — George also likes to jump.",
+    "forms": "Adverb",
+    "etymology": "Latin 'ad sic'"
+  },
+  {
+    "word": "avant",
+    "pronunciation": "आवां",
+    "meaning": "before",
+    "usage": "Avant de manger, on se lave. (आवां दे मांझे, ऑं से लाव) — Before eating, we wash ourselves.",
+    "forms": "Preposition",
+    "etymology": "Latin 'ab ante'"
+  },
+  {
+    "word": "avec",
+    "pronunciation": "आवेक",
+    "meaning": "with",
+    "usage": "Je joue avec mon frère. (झे झू आवेक मों फ्रेर) — I play with my brother.",
+    "forms": "Preposition",
+    "etymology": "Latin 'ab hoc'"
+  },
+  {
+    "word": "avez",
+    "pronunciation": "आवे",
+    "meaning": "you have",
+    "usage": "Vous avez un cadeau. (वु आवे अं कादो) — You have a gift.",
+    "forms": "Verb (2nd person plural present)",
+    "etymology": "Latin 'habere'"
+  },
+  {
+    "word": "avons",
+    "pronunciation": "आवों",
+    "meaning": "we have",
+    "usage": "Nous avons une fête. (नु आवों उन फेत) — We have a party.",
+    "forms": "Verb (1st person plural present)",
+    "etymology": "Latin 'habere'"
+  },
+  {
+    "word": "bain",
+    "pronunciation": "बैं",
+    "meaning": "bath",
+    "usage": "Je prends un bain. (झे प्रां अं बैं) — I take a bath.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'balneum'"
+  },
+  {
+    "word": "bande",
+    "pronunciation": "बांद",
+    "meaning": "group / gang",
+    "usage": "Une bande d'amis. (उन बांद दामी) — A group of friends.",
+    "forms": "Noun (feminine)",
+    "etymology": "Germanic 'binda'"
+  },
+  {
+    "word": "beaucoup",
+    "pronunciation": "बोकू",
+    "meaning": "a lot / much",
+    "usage": "J'aime beaucoup jouer. (झेम बोकू झुए) — I like to play a lot.",
+    "forms": "Adverb",
+    "etymology": "Latin 'bellus colpus'"
+  },
+  {
+    "word": "besoin",
+    "pronunciation": "बेज़ोएं",
+    "meaning": "need",
+    "usage": "J'ai besoin d'aide. (झे बेज़ोएं देद) — I need help.",
+    "forms": "Noun (masculine)",
+    "etymology": "Germanic 'bisunni'"
+  },
+  {
+    "word": "bien",
+    "pronunciation": "बिएं",
+    "meaning": "well / good",
+    "usage": "Ça va bien. (सा वा बिएं) — It's going well.",
+    "forms": "Adverb",
+    "etymology": "Latin 'bene'"
+  },
+  {
+    "word": "bisous",
+    "pronunciation": "बिज़ू",
+    "meaning": "kisses",
+    "usage": "Gros bisous! (ग्रो बिज़ू) — Big kisses!",
+    "forms": "Noun (masculine plural)",
+    "etymology": "Onomatopoeia"
+  },
+  {
+    "word": "bonjour",
+    "pronunciation": "बोंझुर",
+    "meaning": "hello / good morning",
+    "usage": "Bonjour, comment allez-vous? (बोंझुर, कोमां आले-वु) — Hello, how are you?",
+    "forms": "Interjection",
+    "etymology": "Latin 'bonus dies'"
+  },
+  {
+    "word": "bonne",
+    "pronunciation": "बोन",
+    "meaning": "good (feminine)",
+    "usage": "Bonne nuit! (बोन न्युइ) — Good night!",
+    "forms": "Adjective (feminine)",
+    "etymology": "Latin 'bonus'"
+  },
+  {
+    "word": "bottes",
+    "pronunciation": "बोत",
+    "meaning": "boots",
+    "usage": "Je mets mes bottes. (झे मे मे बोत) — I put on my boots.",
+    "forms": "Noun (feminine plural)",
+    "etymology": "Germanic 'bott'"
+  },
+  {
+    "word": "boue",
+    "pronunciation": "बू",
+    "meaning": "mud",
+    "usage": "Peppa saute dans la boue. (पेप्पा सोत दां ला बू) — Peppa jumps in the mud.",
+    "forms": "Noun (feminine)",
+    "etymology": "Gaulish 'baua'"
+  },
+  {
+    "word": "bulle",
+    "pronunciation": "बुल",
+    "meaning": "bubble",
+    "usage": "Les bulles de savon. (ले बुल दे सावों) — Soap bubbles.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'bulla'"
+  },
+  {
+    "word": "cadeau",
+    "pronunciation": "कादो",
+    "meaning": "gift / present",
+    "usage": "Un cadeau d'anniversaire. (अं कादो दनिवेर्सेर) — A birthday gift.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'capitellum'"
+  },
+  {
+    "word": "caisse",
+    "pronunciation": "केस",
+    "meaning": "box / cash register",
+    "usage": "Une caisse de jouets. (उन केस दे झुए) — A box of toys.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'capsa'"
+  },
+  {
+    "word": "canard",
+    "pronunciation": "कानार",
+    "meaning": "duck",
+    "usage": "Le canard nage. (ले कानार नाज़) — The duck swims.",
+    "forms": "Noun (masculine)",
+    "etymology": "Germanic 'anad'"
+  },
+  {
+    "word": "capitaine",
+    "pronunciation": "कापितेन",
+    "meaning": "captain",
+    "usage": "Le capitaine du bateau. (ले कापितेन दु बातो) — The captain of the boat.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'capitaneus'"
+  },
+  {
+    "word": "car",
+    "pronunciation": "कार",
+    "meaning": "because",
+    "usage": "Je reste car il pleut. (झे रेस्त कार इल प्लो) — I stay because it's raining.",
+    "forms": "Conjunction",
+    "etymology": "Latin 'quare'"
+  },
+  {
+    "word": "ce",
+    "pronunciation": "से",
+    "meaning": "this / that",
+    "usage": "Ce livre est bien. (से लिव्र ए बिएं) — This book is good.",
+    "forms": "Demonstrative pronoun",
+    "etymology": "Latin 'ecce'"
+  },
+  {
+    "word": "c'est",
+    "pronunciation": "से",
+    "meaning": "it is / this is",
+    "usage": "C'est mon ami. (से मों आमी) — This is my friend.",
+    "forms": "Contraction (ce + est)",
+    "etymology": "Latin 'ecce est'"
+  },
+  {
+    "word": "chaque",
+    "pronunciation": "शाक",
+    "meaning": "each / every",
+    "usage": "Chaque jour, je joue. (शाक झुर, झे झू) — Every day, I play.",
+    "forms": "Adjective",
+    "etymology": "Latin 'quisque'"
+  },
+  {
+    "word": "chercher",
+    "pronunciation": "शेर्शे",
+    "meaning": "to look for / to search",
+    "usage": "Je cherche mon jouet. (झे शेर्श मों झुए) — I'm looking for my toy.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'circare'"
+  },
+  {
+    "word": "chocolat",
+    "pronunciation": "शोकोला",
+    "meaning": "chocolate",
+    "usage": "J'aime le chocolat. (झेम ले शोकोला) — I like chocolate.",
+    "forms": "Noun (masculine)",
+    "etymology": "Nahuatl 'xocolatl'"
+  },
+  {
+    "word": "choisissez",
+    "pronunciation": "शोइसिसे",
+    "meaning": "choose (you choose)",
+    "usage": "Choisissez votre couleur. (शोइसिसे वोत्र कुलुर) — Choose your color.",
+    "forms": "Verb (2nd person plural present)",
+    "etymology": "Germanic 'kausjan'"
+  },
+  {
+    "word": "choisir",
+    "pronunciation": "शोइसिर",
+    "meaning": "to choose",
+    "usage": "Je vais choisir. (झे वे शोइसिर) — I'm going to choose.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Germanic 'kausjan'"
+  },
+  {
+    "word": "chose",
+    "pronunciation": "शोज़",
+    "meaning": "thing",
+    "usage": "Une chose importante. (उन शोज़ एंपोर्तांत) — An important thing.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'causa'"
+  },
+  {
+    "word": "clair",
+    "pronunciation": "क्लेर",
+    "meaning": "clear / bright",
+    "usage": "Le ciel est clair. (ले सिएल ए क्लेर) — The sky is clear.",
+    "forms": "Adjective",
+    "etymology": "Latin 'clarus'"
+  },
+  {
+    "word": "coller",
+    "pronunciation": "कोले",
+    "meaning": "to stick / to glue",
+    "usage": "Je vais coller l'image. (झे वे कोले लिमाज़) — I'm going to stick the picture.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'conglutinare'"
+  },
+  {
+    "word": "comme",
+    "pronunciation": "कोम",
+    "meaning": "like / as",
+    "usage": "Grand comme papa. (ग्रां कोम पापा) — Big like daddy.",
+    "forms": "Adverb/Conjunction",
+    "etymology": "Latin 'quomodo'"
+  },
+  {
+    "word": "compte",
+    "pronunciation": "कोंत",
+    "meaning": "count / account",
+    "usage": "Je compte jusqu'à dix. (झे कोंत झुस्का दिस) — I count to ten.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'computus'"
+  },
+  {
+    "word": "copain",
+    "pronunciation": "कोपैं",
+    "meaning": "friend / buddy",
+    "usage": "Mon copain George. (मों कोपैं झॉर्ज) — My friend George.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'companis'"
+  },
+  {
+    "word": "côté",
+    "pronunciation": "कोते",
+    "meaning": "side",
+    "usage": "À côté de moi. (आ कोते दे मोआ) — Next to me.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'costa'"
+  },
+  {
+    "word": "croire",
+    "pronunciation": "क्रोआर",
+    "meaning": "to believe",
+    "usage": "Je crois que oui. (झे क्रोआ के वी) — I believe so.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'credere'"
+  },
+  {
+    "word": "dans",
+    "pronunciation": "दां",
+    "meaning": "in / inside",
+    "usage": "Dans la maison. (दां ला मेज़ों) — In the house.",
+    "forms": "Preposition",
+    "etymology": "Latin 'de intus'"
+  },
+  {
+    "word": "d'accord",
+    "pronunciation": "दाकोर",
+    "meaning": "okay / agreed",
+    "usage": "D'accord, allons-y! (दाकोर, आलों-इ) — Okay, let's go!",
+    "forms": "Expression",
+    "etymology": "Latin 'de accordo'"
+  },
+  {
+    "word": "de",
+    "pronunciation": "दे",
+    "meaning": "of / from",
+    "usage": "Le livre de papa. (ले लिव्र दे पापा) — Daddy's book.",
+    "forms": "Preposition",
+    "etymology": "Latin 'de'"
+  },
+  {
+    "word": "détective",
+    "pronunciation": "देतेक्तिव",
+    "meaning": "detective",
+    "usage": "Je suis un détective. (झे स्युइ अं देतेक्तिव) — I am a detective.",
+    "forms": "Noun (masculine)",
+    "etymology": "English 'detective'"
+  },
+  {
+    "word": "devant",
+    "pronunciation": "देवां",
+    "meaning": "in front of",
+    "usage": "Devant la maison. (देवां ला मेज़ों) — In front of the house.",
+    "forms": "Preposition",
+    "etymology": "Latin 'de ab ante'"
+  },
+  {
+    "word": "dinosaure",
+    "pronunciation": "दिनोसोर",
+    "meaning": "dinosaur",
+    "usage": "Un grand dinosaure. (अं ग्रां दिनोसोर) — A big dinosaur.",
+    "forms": "Noun (masculine)",
+    "etymology": "Greek 'deinos sauros'"
+  },
+  {
+    "word": "dire",
+    "pronunciation": "दिर",
+    "meaning": "to say / to tell",
+    "usage": "Je vais dire bonjour. (झे वे दिर बोंझुर) — I'm going to say hello.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'dicere'"
+  },
+  {
+    "word": "dis",
+    "pronunciation": "दी",
+    "meaning": "say (imperative)",
+    "usage": "Dis bonjour! (दी बोंझुर) — Say hello!",
+    "forms": "Verb (imperative)",
+    "etymology": "Latin 'dicere'"
+  },
+  {
+    "word": "dit",
+    "pronunciation": "दी",
+    "meaning": "says / said",
+    "usage": "Il dit bonjour. (इल दी बोंझुर) — He says hello.",
+    "forms": "Verb (3rd person singular present)",
+    "etymology": "Latin 'dicere'"
+  },
+  {
+    "word": "docteur",
+    "pronunciation": "दोक्तुर",
+    "meaning": "doctor",
+    "usage": "Le docteur est gentil. (ले दोक्तुर ए झांती) — The doctor is kind.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'doctor'"
+  },
+  {
+    "word": "douche",
+    "pronunciation": "दुश",
+    "meaning": "shower",
+    "usage": "Je prends une douche. (झे प्रां उन दुश) — I take a shower.",
+    "forms": "Noun (feminine)",
+    "etymology": "Italian 'doccia'"
+  },
+  {
+    "word": "doux",
+    "pronunciation": "दू",
+    "meaning": "soft / gentle",
+    "usage": "Un tissu doux. (अं तिसु दू) — A soft fabric.",
+    "forms": "Adjective",
+    "etymology": "Latin 'dulcis'"
+  },
+  {
+    "word": "du",
+    "pronunciation": "दु",
+    "meaning": "of the / from the",
+    "usage": "Du pain frais. (दु पैं फ्रे) — Fresh bread.",
+    "forms": "Contracted preposition (de + le)",
+    "etymology": "Latin 'de'"
+  },
+  {
+    "word": "écoute",
+    "pronunciation": "एकुत",
+    "meaning": "listen",
+    "usage": "Écoute bien! (एकुत बिएं) — Listen well!",
+    "forms": "Verb (imperative)",
+    "etymology": "Latin 'auscultare'"
+  },
+  {
+    "word": "eh",
+    "pronunciation": "ए",
+    "meaning": "eh / hey",
+    "usage": "Eh bien! (ए बिएं) — Well then!",
+    "forms": "Interjection",
+    "etymology": "Exclamation"
+  },
+  {
+    "word": "elle",
+    "pronunciation": "एल",
+    "meaning": "she / her",
+    "usage": "Elle joue dehors. (एल झू देऑर) — She plays outside.",
+    "forms": "Pronoun (feminine)",
+    "etymology": "Latin 'illa'"
+  },
+  {
+    "word": "elles",
+    "pronunciation": "एल",
+    "meaning": "they (feminine)",
+    "usage": "Elles sont amies. (एल सों आमी) — They are friends.",
+    "forms": "Pronoun (feminine plural)",
+    "etymology": "Latin 'illae'"
+  },
+  {
+    "word": "en",
+    "pronunciation": "आं",
+    "meaning": "in / of it",
+    "usage": "J'en veux encore. (झां वे आंकोर) — I want more of it.",
+    "forms": "Pronoun/Preposition",
+    "etymology": "Latin 'inde'"
+  },
+  {
+    "word": "encore",
+    "pronunciation": "आंकोर",
+    "meaning": "again / more",
+    "usage": "Encore une fois! (आंकोर उन फोआ) — One more time!",
+    "forms": "Adverb",
+    "etymology": "Latin 'hanc horam'"
+  },
+  {
+    "word": "entends",
+    "pronunciation": "आंतां",
+    "meaning": "hear",
+    "usage": "J'entends de la musique. (झांतां दे ला मुज़ीक) — I hear music.",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'intendere'"
+  },
+  {
+    "word": "entre",
+    "pronunciation": "आंत्र",
+    "meaning": "between",
+    "usage": "Entre toi et moi. (आंत्र तोआ ए मोआ) — Between you and me.",
+    "forms": "Preposition",
+    "etymology": "Latin 'inter'"
+  },
+  {
+    "word": "envers",
+    "pronunciation": "आंवेर",
+    "meaning": "towards",
+    "usage": "Gentil envers tous. (झांती आंवेर तु) — Kind towards everyone.",
+    "forms": "Preposition",
+    "etymology": "Latin 'in versus'"
+  },
+  {
+    "word": "est",
+    "pronunciation": "ए",
+    "meaning": "is",
+    "usage": "Il est content. (इल ए कोंतां) — He is happy.",
+    "forms": "Verb (3rd person singular present)",
+    "etymology": "Latin 'est'"
+  },
+  {
+    "word": "été",
+    "pronunciation": "एते",
+    "meaning": "summer / been",
+    "usage": "L'été est chaud. (लेते ए शो) — Summer is hot.",
+    "forms": "Noun (masculine) / Past participle",
+    "etymology": "Latin 'aestas'"
+  },
+  {
+    "word": "et",
+    "pronunciation": "ए",
+    "meaning": "and",
+    "usage": "Papa et maman. (पापा ए मामां) — Daddy and mommy.",
+    "forms": "Conjunction",
+    "etymology": "Latin 'et'"
+  },
+  {
+    "word": "être",
+    "pronunciation": "एत्र",
+    "meaning": "to be",
+    "usage": "Je veux être grand. (झे वे एत्र ग्रां) — I want to be big.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'esse'"
+  },
+  {
+    "word": "eu",
+    "pronunciation": "य",
+    "meaning": "had",
+    "usage": "J'ai eu peur. (झे य पुर) — I was scared.",
+    "forms": "Past participle",
+    "etymology": "Latin 'habere'"
+  },
+  {
+    "word": "eux",
+    "pronunciation": "ओ",
+    "meaning": "them",
+    "usage": "Je joue avec eux. (झे झू आवेक ओ) — I play with them.",
+    "forms": "Pronoun (masculine plural)",
+    "etymology": "Latin 'illos'"
+  },
+  {
+    "word": "faire",
+    "pronunciation": "फेर",
+    "meaning": "to do / to make",
+    "usage": "Que veux-tu faire? (के वे-तु फेर) — What do you want to do?",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'facere'"
+  },
+  {
+    "word": "fait",
+    "pronunciation": "फे",
+    "meaning": "does / made",
+    "usage": "Il fait beau. (इल फे बो) — It's nice weather.",
+    "forms": "Verb (3rd person singular present)",
+    "etymology": "Latin 'facere'"
+  },
+  {
+    "word": "faut",
+    "pronunciation": "फो",
+    "meaning": "must / need",
+    "usage": "Il faut manger. (इल फो मांझे) — We must eat.",
+    "forms": "Verb (impersonal)",
+    "etymology": "Latin 'fallere'"
+  },
+  {
+    "word": "ferme",
+    "pronunciation": "फेर्म",
+    "meaning": "farm / close",
+    "usage": "Une ferme avec des animaux. (उन फेर्म आवेक दे अनिमो) — A farm with animals.",
+    "forms": "Noun (feminine) / Verb",
+    "etymology": "Latin 'firmus'"
+  },
+  {
+    "word": "fête",
+    "pronunciation": "फेत",
+    "meaning": "party / celebration",
+    "usage": "Une fête d'anniversaire. (उन फेत दनिवेर्सेर) — A birthday party.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'festa'"
+  },
+  {
+    "word": "fille",
+    "pronunciation": "फी",
+    "meaning": "girl / daughter",
+    "usage": "Une petite fille. (उन पेतित फी) — A little girl.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'filia'"
+  },
+  {
+    "word": "flaque",
+    "pronunciation": "फ्लाक",
+    "meaning": "puddle",
+    "usage": "Une flaque de boue. (उन फ्लाक दे बू) — A mud puddle.",
+    "forms": "Noun (feminine)",
+    "etymology": "Dutch 'vlak'"
+  },
+  {
+    "word": "frère",
+    "pronunciation": "फ्रेर",
+    "meaning": "brother",
+    "usage": "Mon petit frère. (मों पेति फ्रेर) — My little brother.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'frater'"
+  },
+  {
+    "word": "garçon",
+    "pronunciation": "गार्सों",
+    "meaning": "boy",
+    "usage": "Un garçon intelligent. (अं गार्सों एंतेलिझां) — A smart boy.",
+    "forms": "Noun (masculine)",
+    "etymology": "Frankish 'wrakkjo'"
+  },
+  {
+    "word": "gâteau",
+    "pronunciation": "गातो",
+    "meaning": "cake",
+    "usage": "Un gâteau d'anniversaire. (अं गातो दनिवेर्सेर) — A birthday cake.",
+    "forms": "Noun (masculine)",
+    "etymology": "Frankish 'wastel'"
+  },
+  {
+    "word": "gens",
+    "pronunciation": "झां",
+    "meaning": "people",
+    "usage": "Les gens sont gentils. (ले झां सों झांती) — People are kind.",
+    "forms": "Noun (plural)",
+    "etymology": "Latin 'gentes'"
+  },
+  {
+    "word": "grand",
+    "pronunciation": "ग्रां",
+    "meaning": "big / tall",
+    "usage": "Un grand arbre. (अं ग्रां आर्ब्र) — A big tree.",
+    "forms": "Adjective",
+    "etymology": "Latin 'grandis'"
+  },
+  {
+    "word": "grillé",
+    "pronunciation": "ग्रिये",
+    "meaning": "grilled / toasted",
+    "usage": "Du pain grillé. (दु पैं ग्रिये) — Toasted bread.",
+    "forms": "Past participle",
+    "etymology": "Latin 'craticula'"
+  },
+  {
+    "word": "gronder",
+    "pronunciation": "ग्रोंदे",
+    "meaning": "to scold",
+    "usage": "Maman va gronder. (मामां वा ग्रोंदे) — Mommy is going to scold.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'grundire'"
+  },
+  {
+    "word": "gros",
+    "pronunciation": "ग्रो",
+    "meaning": "big / fat",
+    "usage": "Un gros chien. (अं ग्रो शिएं) — A big dog.",
+    "forms": "Adjective",
+    "etymology": "Latin 'grossus'"
+  },
+  {
+    "word": "heure",
+    "pronunciation": "उर",
+    "meaning": "hour / time",
+    "usage": "Quelle heure est-il? (केल उर एतिल) — What time is it?",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'hora'"
+  },
+  {
+    "word": "ici",
+    "pronunciation": "इसी",
+    "meaning": "here",
+    "usage": "Viens ici! (विएं इसी) — Come here!",
+    "forms": "Adverb",
+    "etymology": "Latin 'hic'"
+  },
+  {
+    "word": "il",
+    "pronunciation": "इल",
+    "meaning": "he / it",
+    "usage": "Il joue dehors. (इल झू देऑर) — He plays outside.",
+    "forms": "Pronoun (masculine)",
+    "etymology": "Latin 'ille'"
+  },
+  {
+    "word": "ils",
+    "pronunciation": "इल",
+    "meaning": "they (masculine)",
+    "usage": "Ils sont amis. (इल सों आमी) — They are friends.",
+    "forms": "Pronoun (masculine plural)",
+    "etymology": "Latin 'illi'"
+  },
+  {
+    "word": "intelligent",
+    "pronunciation": "एंतेलिझां",
+    "meaning": "smart / intelligent",
+    "usage": "Un enfant intelligent. (अं आंफां एंतेलिझां) — A smart child.",
+    "forms": "Adjective",
+    "etymology": "Latin 'intelligens'"
+  },
+  {
+    "word": "inviter",
+    "pronunciation": "एंवीते",
+    "meaning": "to invite",
+    "usage": "Je vais inviter mes amis. (झे वे एंवीते मे आमी) — I'm going to invite my friends.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'invitare'"
+  },
+  {
+    "word": "je",
+    "pronunciation": "झे",
+    "meaning": "I",
+    "usage": "Je suis content. (झे स्युइ कोंतां) — I am happy.",
+    "forms": "Pronoun (1st person singular)",
+    "etymology": "Latin 'ego'"
+  },
+  {
+    "word": "jouer",
+    "pronunciation": "झुए",
+    "meaning": "to play",
+    "usage": "J'aime jouer dehors. (झेम झुए देऑर) — I like to play outside.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'jocare'"
+  },
+  {
+    "word": "joute",
+    "pronunciation": "झुत",
+    "meaning": "joust / tournament",
+    "usage": "Une joute de chevaliers. (उन झुत दे शेवालिए) — A knights' tournament.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'juxta'"
+  },
+  {
+    "word": "jus",
+    "pronunciation": "झु",
+    "meaning": "juice",
+    "usage": "Du jus d'orange. (दु झु दोरांझ) — Orange juice.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'jus'"
+  },
+  {
+    "word": "la",
+    "pronunciation": "ला",
+    "meaning": "the (feminine)",
+    "usage": "La maison est grande. (ला मेज़ों ए ग्रांद) — The house is big.",
+    "forms": "Definite article (feminine)",
+    "etymology": "Latin 'illa'"
+  },
+  {
+    "word": "le",
+    "pronunciation": "ले",
+    "meaning": "the (masculine)",
+    "usage": "Le chat dort. (ले शा दोर) — The cat sleeps.",
+    "forms": "Definite article (masculine)",
+    "etymology": "Latin 'ille'"
+  },
+  {
+    "word": "les",
+    "pronunciation": "ले",
+    "meaning": "the (plural)",
+    "usage": "Les enfants jouent. (ले आंफां झू) — The children play.",
+    "forms": "Definite article (plural)",
+    "etymology": "Latin 'illos'"
+  },
+  {
+    "word": "leur",
+    "pronunciation": "लुर",
+    "meaning": "their",
+    "usage": "Leur maison est belle. (लुर मेज़ों ए बेल) — Their house is beautiful.",
+    "forms": "Possessive adjective",
+    "etymology": "Latin 'illorum'"
+  },
+  {
+    "word": "lit",
+    "pronunciation": "ली",
+    "meaning": "bed",
+    "usage": "Je vais au lit. (झे वे ओ ली) — I'm going to bed.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'lectus'"
+  },
+  {
+    "word": "loisir",
+    "pronunciation": "लोइज़िर",
+    "meaning": "leisure",
+    "usage": "Du temps de loisir. (दु तां दे लोइज़िर) — Leisure time.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'licere'"
+  },
+  {
+    "word": "lui",
+    "pronunciation": "लुई",
+    "meaning": "him / to him",
+    "usage": "Je parle à lui. (झे पार्ल आ लुई) — I speak to him.",
+    "forms": "Pronoun",
+    "etymology": "Latin 'illi'"
+  },
+  {
+    "word": "là",
+    "pronunciation": "ला",
+    "meaning": "there",
+    "usage": "Il est là. (इल ए ला) — He is there.",
+    "forms": "Adverb",
+    "etymology": "Latin 'illac'"
+  },
+  {
+    "word": "maman",
+    "pronunciation": "मामां",
+    "meaning": "mama / mommy",
+    "usage": "Maman, je t'aime. (मामां, झे तेम) — Mama, I love you.",
+    "forms": "Noun (feminine)",
+    "etymology": "Baby talk"
+  },
+  {
+    "word": "manger",
+    "pronunciation": "मांझे",
+    "meaning": "to eat",
+    "usage": "Je vais manger. (झे वे मांझे) — I'm going to eat.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'manducare'"
+  },
+  {
+    "word": "maquillage",
+    "pronunciation": "माकिअाज़",
+    "meaning": "makeup",
+    "usage": "Du maquillage coloré. (दु माकिअाज़ कोलोरे) — Colorful makeup.",
+    "forms": "Noun (masculine)",
+    "etymology": "Dutch 'maken'"
+  },
+  {
+    "word": "marche",
+    "pronunciation": "मार्श",
+    "meaning": "walk / step",
+    "usage": "Une marche dans le parc. (उन मार्श दां ले पार्क) — A walk in the park.",
+    "forms": "Noun (feminine)",
+    "etymology": "Frankish 'markon'"
+  },
+  {
+    "word": "marrant",
+    "pronunciation": "मारां",
+    "meaning": "funny",
+    "usage": "C'est marrant! (से मारां) — That's funny!",
+    "forms": "Adjective",
+    "etymology": "French 'marrer'"
+  },
+  {
+    "word": "mettre",
+    "pronunciation": "मेत्र",
+    "meaning": "to put",
+    "usage": "Je vais mettre mes chaussures. (झे वे मेत्र मे शोसुर) — I'm going to put on my shoes.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'mittere'"
+  },
+  {
+    "word": "moi",
+    "pronunciation": "मोआ",
+    "meaning": "me",
+    "usage": "C'est pour moi. (से पुर मोआ) — It's for me.",
+    "forms": "Pronoun (1st person singular)",
+    "etymology": "Latin 'me'"
+  },
+  {
+    "word": "mon",
+    "pronunciation": "मों",
+    "meaning": "my (masculine)",
+    "usage": "Mon chien est mignon. (मों शिएं ए मिन्यों) — My dog is cute.",
+    "forms": "Possessive adjective",
+    "etymology": "Latin 'meus'"
+  },
+  {
+    "word": "montre",
+    "pronunciation": "मोंत्र",
+    "meaning": "watch / show",
+    "usage": "Montre-moi! (मोंत्र-मोआ) — Show me!",
+    "forms": "Noun (feminine) / Verb",
+    "etymology": "Latin 'monstrare'"
+  },
+  {
+    "word": "ne",
+    "pronunciation": "ने",
+    "meaning": "not (negative particle)",
+    "usage": "Je ne sais pas. (झे ने से पा) — I don't know.",
+    "forms": "Adverb",
+    "etymology": "Latin 'non'"
+  },
+  {
+    "word": "non",
+    "pronunciation": "नों",
+    "meaning": "no",
+    "usage": "Non, merci. (नों, मेर्सी) — No, thank you.",
+    "forms": "Adverb",
+    "etymology": "Latin 'non'"
+  },
+  {
+    "word": "nous",
+    "pronunciation": "नु",
+    "meaning": "we / us",
+    "usage": "Nous jouons ensemble. (नु झुऑं आंसांब्ल) — We play together.",
+    "forms": "Pronoun (1st person plural)",
+    "etymology": "Latin 'nos'"
+  },
+  {
+    "word": "nouveau",
+    "pronunciation": "नुवो",
+    "meaning": "new",
+    "usage": "Un nouveau jouet. (अं नुवो झुए) — A new toy.",
+    "forms": "Adjective",
+    "etymology": "Latin 'novus'"
+  },
+  {
+    "word": "nuit",
+    "pronunciation": "न्युइ",
+    "meaning": "night",
+    "usage": "Bonne nuit! (बोन न्युइ) — Good night!",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'nox'"
+  },
+  {
+    "word": "oui",
+    "pronunciation": "वी",
+    "meaning": "yes",
+    "usage": "Oui, je veux jouer. (वी, झे वे झुए) — Yes, I want to play.",
+    "forms": "Adverb",
+    "etymology": "Latin 'hoc ille'"
+  },
+  {
+    "word": "parle",
+    "pronunciation": "पार्ल",
+    "meaning": "speak / talk",
+    "usage": "Je parle français. (झे पार्ल फ्रांसे) — I speak French.",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'parabolare'"
+  },
+  {
+    "word": "parler",
+    "pronunciation": "पार्ले",
+    "meaning": "to speak",
+    "usage": "J'aime parler avec toi. (झेम पार्ले आवेक तोआ) — I like to speak with you.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'parabolare'"
+  },
+  {
+    "word": "partager",
+    "pronunciation": "पार्ताझे",
+    "meaning": "to share",
+    "usage": "Je vais partager mes jouets. (झे वे पार्ताझे मे झुए) — I'm going to share my toys.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'partiri'"
+  },
+  {
+    "word": "pas",
+    "pronunciation": "पा",
+    "meaning": "not / step",
+    "usage": "Je ne sais pas. (झे ने से पा) — I don't know.",
+    "forms": "Adverb / Noun (masculine)",
+    "etymology": "Latin 'passus'"
+  },
+  {
+    "word": "paté",
+    "pronunciation": "पाते",
+    "meaning": "pâté / paste",
+    "usage": "Du paté de sable. (दु पाते दे साब्ल) — Sand paste.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'pasta'"
+  },
+  {
+    "word": "peppa",
+    "pronunciation": "पेप्पा",
+    "meaning": "Peppa (proper name)",
+    "usage": "Peppa Pig aime sauter. (पेप्पा पिग एम सोते) — Peppa Pig likes to jump.",
+    "forms": "Proper noun",
+    "etymology": "Modern name"
+  },
+  {
+    "word": "petit",
+    "pronunciation": "पेति",
+    "meaning": "small / little",
+    "usage": "Un petit chat. (अं पेति शा) — A little cat.",
+    "forms": "Adjective",
+    "etymology": "Latin 'pittitus'"
+  },
+  {
+    "word": "peux",
+    "pronunciation": "पे",
+    "meaning": "can / able",
+    "usage": "Je peux jouer? (झे पे झुए) — Can I play?",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'posse'"
+  },
+  {
+    "word": "pieds",
+    "pronunciation": "पिए",
+    "meaning": "feet",
+    "usage": "Mes pieds sont sales. (मे पिए सों साल) — My feet are dirty.",
+    "forms": "Noun (masculine plural)",
+    "etymology": "Latin 'pedes'"
+  },
+  {
+    "word": "pirate",
+    "pronunciation": "पिरात",
+    "meaning": "pirate",
+    "usage": "Un pirate avec un chapeau. (अं पिरात आवेक अं शापो) — A pirate with a hat.",
+    "forms": "Noun (masculine)",
+    "etymology": "Greek 'peirates'"
+  },
+  {
+    "word": "plaisir",
+    "pronunciation": "प्लेज़िर",
+    "meaning": "pleasure",
+    "usage": "Avec plaisir! (आवेक प्लेज़िर) — With pleasure!",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'placere'"
+  },
+  {
+    "word": "plein",
+    "pronunciation": "प्लैं",
+    "meaning": "full",
+    "usage": "Mon sac est plein. (मों साक ए प्लैं) — My bag is full.",
+    "forms": "Adjective",
+    "etymology": "Latin 'plenus'"
+  },
+  {
+    "word": "plus",
+    "pronunciation": "प्लु",
+    "meaning": "more / plus",
+    "usage": "Je veux plus de gâteau. (झे वे प्लु दे गातो) — I want more cake.",
+    "forms": "Adverb",
+    "etymology": "Latin 'plus'"
+  },
+  {
+    "word": "poupon",
+    "pronunciation": "पुपों",
+    "meaning": "baby doll",
+    "usage": "Mon poupon est mignon. (मों पुपों ए मिन्यों) — My baby doll is cute.",
+    "forms": "Noun (masculine)",
+    "etymology": "French 'poupée'"
+  },
+  {
+    "word": "pouvoir",
+    "pronunciation": "पुवोआर",
+    "meaning": "to be able / can",
+    "usage": "Je peux pouvoir jouer. (झे पे पुवोआर झुए) — I can be able to play.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'posse'"
+  },
+  {
+    "word": "pour",
+    "pronunciation": "पुर",
+    "meaning": "for",
+    "usage": "C'est pour toi. (से पुर तोआ) — It's for you.",
+    "forms": "Preposition",
+    "etymology": "Latin 'pro'"
+  },
+  {
+    "word": "premier",
+    "pronunciation": "प्रेमिए",
+    "meaning": "first",
+    "usage": "Le premier jour. (ले प्रेमिए झुर) — The first day.",
+    "forms": "Adjective",
+    "etymology": "Latin 'primarius'"
+  },
+  {
+    "word": "présenter",
+    "pronunciation": "प्रेज़ांते",
+    "meaning": "to present / introduce",
+    "usage": "Je vais présenter mon ami. (झे वे प्रेज़ांते मों आमी) — I'm going to introduce my friend.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'praesentare'"
+  },
+  {
+    "word": "profiter",
+    "pronunciation": "प्रोफीते",
+    "meaning": "to enjoy / benefit",
+    "usage": "Profiter du soleil. (प्रोफीते दु सोलै) — Enjoy the sun.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'profectus'"
+  },
+  {
+    "word": "puddle",
+    "pronunciation": "पुडल",
+    "meaning": "puddle (English word)",
+    "usage": "Jump in the puddle! (झंप इन दे पुडल) — Jump in the puddle!",
+    "forms": "Noun (English loanword)",
+    "etymology": "English 'puddle'"
+  },
+  {
+    "word": "qu'est-ce",
+    "pronunciation": "केस्क",
+    "meaning": "what is",
+    "usage": "Qu'est-ce que c'est? (केस्क के से) — What is it?",
+    "forms": "Interrogative expression",
+    "etymology": "Latin 'quid est hoc'"
+  },
+  {
+    "word": "quand",
+    "pronunciation": "कां",
+    "meaning": "when",
+    "usage": "Quand est-ce qu'on mange? (कां एस्क कों मांझ) — When do we eat?",
+    "forms": "Adverb",
+    "etymology": "Latin 'quando'"
+  },
+  {
+    "word": "que",
+    "pronunciation": "के",
+    "meaning": "that / what",
+    "usage": "Je sais que tu aimes jouer. (झे से के तु एम झुए) — I know that you like to play.",
+    "forms": "Conjunction/Pronoun",
+    "etymology": "Latin 'quod'"
+  },
+  {
+    "word": "qui",
+    "pronunciation": "की",
+    "meaning": "who",
+    "usage": "Qui est là? (की ए ला) — Who is there?",
+    "forms": "Pronoun",
+    "etymology": "Latin 'quis'"
+  },
+  {
+    "word": "quoi",
+    "pronunciation": "कोआ",
+    "meaning": "what",
+    "usage": "Tu dis quoi? (तु दी कोआ) — What are you saying?",
+    "forms": "Pronoun",
+    "etymology": "Latin 'quid'"
+  },
+  {
+    "word": "regarder",
+    "pronunciation": "रेगार्दे",
+    "meaning": "to look / to watch",
+    "usage": "Je regarde la télé. (झे रेगार्द ला तेले) — I watch TV.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Germanic 'wardon'"
+  },
+  {
+    "word": "rentrer",
+    "pronunciation": "रांत्रे",
+    "meaning": "to return home",
+    "usage": "Je vais rentrer. (झे वे रांत्रे) — I'm going to go home.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'intrare'"
+  },
+  {
+    "word": "reste",
+    "pronunciation": "रेस्त",
+    "meaning": "stay / remain",
+    "usage": "Je reste ici. (झे रेस्त इसी) — I stay here.",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'restare'"
+  },
+  {
+    "word": "retrouve",
+    "pronunciation": "रेत्रुव",
+    "meaning": "find again / meet",
+    "usage": "Je retrouve mon ami. (झे रेत्रुव मों आमी) — I meet my friend.",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'retropare'"
+  },
+  {
+    "word": "revoir",
+    "pronunciation": "रेवोआर",
+    "meaning": "to see again",
+    "usage": "Au revoir! (ओ रेवोआर) — Goodbye!",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'revidere'"
+  },
+  {
+    "word": "rigoler",
+    "pronunciation": "रिगोले",
+    "meaning": "to laugh / have fun",
+    "usage": "On va rigoler! (ऑं वा रिगोले) — We're going to have fun!",
+    "forms": "Verb (infinitive)",
+    "etymology": "French 'rigole'"
+  },
+  {
+    "word": "sable",
+    "pronunciation": "साब्ल",
+    "meaning": "sand",
+    "usage": "Du sable sur la plage. (दु साब्ल सुर ला प्लाज़) — Sand on the beach.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'sabulum'"
+  },
+  {
+    "word": "salut",
+    "pronunciation": "सालु",
+    "meaning": "hi / bye",
+    "usage": "Salut les amis! (सालु ले आमी) — Hi friends!",
+    "forms": "Interjection",
+    "etymology": "Latin 'salus'"
+  },
+  {
+    "word": "sauter",
+    "pronunciation": "सोते",
+    "meaning": "to jump",
+    "usage": "J'aime sauter. (झेम सोते) — I like to jump.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'saltare'"
+  },
+  {
+    "word": "saute",
+    "pronunciation": "सोत",
+    "meaning": "jump",
+    "usage": "Il saute haut. (इल सोत ओ) — He jumps high.",
+    "forms": "Verb (3rd person singular present)",
+    "etymology": "Latin 'saltare'"
+  },
+  {
+    "word": "savon",
+    "pronunciation": "सावों",
+    "meaning": "soap",
+    "usage": "Du savon pour les mains. (दु सावों पुर ले मैं) — Soap for the hands.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'sapo'"
+  },
+  {
+    "word": "savoir",
+    "pronunciation": "सावोआर",
+    "meaning": "to know",
+    "usage": "Je veux savoir. (झे वे सावोआर) — I want to know.",
+    "forms": "Verb (infinitive)",
+    "etymology": "Latin 'sapere'"
+  },
+  {
+    "word": "se",
+    "pronunciation": "से",
+    "meaning": "oneself",
+    "usage": "Il se lave. (इल से लाव) — He washes himself.",
+    "forms": "Reflexive pronoun",
+    "etymology": "Latin 'se'"
+  },
+  {
+    "word": "selon",
+    "pronunciation": "सेलों",
+    "meaning": "according to",
+    "usage": "Selon maman. (सेलों मामां) — According to mama.",
+    "forms": "Preposition",
+    "etymology": "Latin 'secundum'"
+  },
+  {
+    "word": "sens",
+    "pronunciation": "सां",
+    "meaning": "sense / feel",
+    "usage": "Je sens une odeur. (झे सां उन ओदुर) — I smell a scent.",
+    "forms": "Verb (1st person singular present)",
+    "etymology": "Latin 'sentire'"
+  },
+  {
+    "word": "ses",
+    "pronunciation": "से",
+    "meaning": "his / her (plural)",
+    "usage": "Ses jouets sont beaux. (से झुए सों बो) — His toys are beautiful.",
+    "forms": "Possessive adjective",
+    "etymology": "Latin 'suus'"
+  },
+  {
+    "word": "si",
+    "pronunciation": "सी",
+    "meaning": "if / yes (after negative)",
+    "usage": "Si tu veux jouer. (सी तु वे झुए) — If you want to play.",
+    "forms": "Conjunction/Adverb",
+    "etymology": "Latin 'si'"
+  },
+  {
+    "word": "singe",
+    "pronunciation": "सैंज़",
+    "meaning": "monkey",
+    "usage": "Un singe dans l'arbre. (अं सैंज़ दां लार्ब्र) — A monkey in the tree.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'simia'"
+  },
+  {
+    "word": "soeur",
+    "pronunciation": "सुर",
+    "meaning": "sister",
+    "usage": "Ma petite soeur. (मा पेतित सुर) — My little sister.",
+    "forms": "Noun (feminine)",
+    "etymology": "Latin 'soror'"
+  },
+  {
+    "word": "soir",
+    "pronunciation": "सोआर",
+    "meaning": "evening",
+    "usage": "Bonsoir! (बोंसोआर) — Good evening!",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'serum'"
+  },
+  {
+    "word": "soleil",
+    "pronunciation": "सोलै",
+    "meaning": "sun",
+    "usage": "Le soleil brille. (ले सोलै ब्री) — The sun shines.",
+    "forms": "Noun (masculine)",
+    "etymology": "Latin 'sol'"
+  },
+  {
+    "word": "son",
+    "pronunciation": "सों",
+    "meaning": "his / her / its",
+    "usage": "Son chien est mignon. (सों शिएं ए मिन्यों) — His dog is cute.",
+    "forms": "Possessive adjective",
+    "etymology": "Latin 'suus'"
+  },
+  {
+    "word": "sont",
+    "pronunciation": "सों",
+    "meaning": "are",
+    "usage": "Ils sont contents. (इल सों कोंतां) — They are happy.",
+    "forms": "Verb (3rd person plural present)",
+    "etymology": "Latin 'sunt'"
+  }
       // 🔁 Add remaining 900+ words here in the same format
       // Example:
       /*
